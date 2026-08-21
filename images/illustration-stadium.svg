@@ -1,0 +1,37 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Football stadium</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+<circle cx="490" cy="90" r="42" fill="#F2A93B"/>
+
+<!-- floodlights -->
+<g fill="#2E6F71">
+  <rect x="78" y="120" width="10" height="90" rx="4"/>
+  <rect x="512" y="120" width="10" height="90" rx="4"/>
+</g>
+<g fill="#F2A93B">
+  <circle cx="83" cy="112" r="16"/>
+  <circle cx="517" cy="112" r="16"/>
+</g>
+
+<!-- stadium bowl -->
+<ellipse cx="300" cy="290" rx="245" ry="165" fill="#2E6F71"/>
+<ellipse cx="300" cy="290" rx="245" ry="165" fill="none" stroke="#1F4E4F" stroke-width="10"/>
+<ellipse cx="300" cy="298" rx="175" ry="108" fill="#E8C77E"/>
+
+<!-- pitch markings -->
+<g fill="none" stroke="#EAF4F4" stroke-width="5">
+  <line x1="300" y1="196" x2="300" y2="400"/>
+  <circle cx="300" cy="298" r="44"/>
+  <rect x="150" y="248" width="60" height="100" rx="4"/>
+  <rect x="390" y="248" width="60" height="100" rx="4"/>
+</g>
+
+<!-- football -->
+<g>
+  <circle cx="300" cy="420" r="58" fill="#EAF4F4" stroke="#2E6F71" stroke-width="5"/>
+  <polygon points="300,388 320,402 313,424 287,424 280,402" fill="#1F4E4F"/>
+  <polygon points="255,420 270,435 262,455" fill="#E85D4C"/>
+  <polygon points="345,420 330,435 338,455" fill="#E85D4C"/>
+  <path d="M280 424 L262 455 M320 424 L338 455 M287 424 L300 452 L313 424" stroke="#2E6F71" stroke-width="4" fill="none"/>
+</g>
+</svg>

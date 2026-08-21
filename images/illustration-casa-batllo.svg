@@ -1,0 +1,34 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Casa Batlló facade</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+<circle cx="120" cy="90" r="40" fill="#F2A93B"/>
+<path d="M60 200 Q120 140 180 200 Q240 150 300 200 Q360 145 420 200 Q480 150 540 200 L540 240 L60 240 Z" fill="#4FA3A8"/>
+<g fill="#E85D4C">
+  <circle cx="100" cy="190" r="10"/>
+  <circle cx="160" cy="175" r="10"/>
+  <circle cx="220" cy="190" r="10"/>
+  <circle cx="280" cy="172" r="10"/>
+  <circle cx="340" cy="190" r="10"/>
+  <circle cx="400" cy="175" r="10"/>
+  <circle cx="460" cy="190" r="10"/>
+  <circle cx="500" cy="178" r="10"/>
+</g>
+<rect x="60" y="240" width="480" height="220" fill="#EAF4F4" stroke="#2E6F71" stroke-width="3"/>
+<g>
+  <path d="M110 300 q40 -40 80 0 q0 50 -40 60 q-40 -10 -40 -60 z" fill="#F2A93B"/>
+  <circle cx="150" cy="290" r="8" fill="#2E6F71"/>
+  <circle cx="150" cy="330" r="8" fill="#2E6F71"/>
+  <path d="M270 300 q40 -40 80 0 q0 50 -40 60 q-40 -10 -40 -60 z" fill="#E8C77E"/>
+  <circle cx="310" cy="290" r="8" fill="#2E6F71"/>
+  <circle cx="310" cy="330" r="8" fill="#2E6F71"/>
+  <path d="M430 300 q40 -40 80 0 q0 50 -40 60 q-40 -10 -40 -60 z" fill="#F2A93B"/>
+  <circle cx="470" cy="290" r="8" fill="#2E6F71"/>
+  <circle cx="470" cy="330" r="8" fill="#2E6F71"/>
+</g>
+<g fill="none" stroke="#E85D4C" stroke-width="4">
+  <rect x="120" y="380" width="60" height="70" rx="30"/>
+  <rect x="270" y="380" width="60" height="70" rx="30"/>
+  <rect x="420" y="380" width="60" height="70" rx="30"/>
+</g>
+<rect x="0" y="460" width="600" height="40" fill="#8A6B4A"/>
+</svg>

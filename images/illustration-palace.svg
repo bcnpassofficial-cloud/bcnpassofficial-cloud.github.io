@@ -1,0 +1,40 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Palace</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+<circle cx="490" cy="90" r="42" fill="#F2A93B"/>
+
+<!-- flag -->
+<line x1="300" y1="70" x2="300" y2="128" stroke="#2E6F71" stroke-width="5"/>
+<polygon points="300,72 342,86 300,100" fill="#E85D4C"/>
+
+<!-- pediment -->
+<polygon points="150,200 300,120 450,200" fill="#F2A93B"/>
+<polygon points="150,200 300,138 450,200" fill="#E8C77E"/>
+
+<!-- main facade -->
+<rect x="150" y="200" width="300" height="190" fill="#2E6F71"/>
+
+<!-- columns -->
+<g fill="#E8C77E">
+  <rect x="168" y="212" width="20" height="178"/>
+  <rect x="218" y="212" width="20" height="178"/>
+  <rect x="268" y="212" width="20" height="178"/>
+  <rect x="318" y="212" width="20" height="178"/>
+  <rect x="368" y="212" width="20" height="178"/>
+  <rect x="412" y="212" width="20" height="178"/>
+</g>
+
+<!-- arched windows -->
+<g fill="#EAF4F4">
+  <path d="M198 260 v50 h34 v-50 a17 17 0 0 0 -34 0 z"/>
+  <path d="M348 260 v50 h34 v-50 a17 17 0 0 0 -34 0 z"/>
+</g>
+
+<!-- central arched doorway -->
+<path d="M270 390 v-70 h60 v70 a30 30 0 0 0 -60 0 z" fill="#EAF4F4"/>
+<path d="M270 320 a30 30 0 0 1 60 0" fill="#1F4E4F"/>
+
+<!-- steps -->
+<polygon points="110,390 490,390 460,415 140,415" fill="#E8C77E"/>
+<polygon points="140,415 460,415 435,435 165,435" fill="#4FA3A8"/>
+</svg>
