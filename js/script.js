@@ -41,6 +41,15 @@ catBtns.forEach(btn => {
   });
 });
 
+// ===== Jump straight to Tickets > Combined Pass from anywhere =====
+function goToCombinedPass(){
+  const ticketsBtn = document.querySelector('.nav-btn[data-tab="tickets"]');
+  if (ticketsBtn) ticketsBtn.click();
+  const combinedBtn = document.querySelector('.cat-btn[data-cat="combined"]');
+  if (combinedBtn) combinedBtn.click();
+}
+window.goToCombinedPass = goToCombinedPass;
+
 // ===== Star rating (feedback form) =====
 const stars = document.querySelectorAll('.star-rating .star');
 let selectedRating = 0;
