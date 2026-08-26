@@ -427,3 +427,84 @@ button{font-family:var(--font-body);cursor:pointer;}
   .hero h1{font-size:32px;}
   .container{padding:0 18px;}
 }
+
+/* ============================================
+   Savings comparison page + save badges
+   ============================================ */
+.savings-compare{margin:22px 0 30px;}
+.savings-row{
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  padding:18px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  margin-bottom:14px;
+  background:var(--bg);
+}
+.savings-row .icon{
+  width:64px;height:64px;flex-shrink:0;border-radius:12px;overflow:hidden;
+  background:var(--bg-alt);display:flex;align-items:center;justify-content:center;
+}
+.savings-row .icon img{width:100%;height:100%;object-fit:cover;}
+.savings-body{flex:1;min-width:0;}
+.savings-body h4{margin:0 0 10px;font-size:17px;color:var(--teal-dark);}
+.price-bar-track{display:flex;align-items:center;gap:10px;font-size:13px;margin-bottom:6px;}
+.price-bar-label{width:76px;flex-shrink:0;color:var(--text-secondary);font-weight:600;}
+.price-bar-fill-wrap{flex:1;background:var(--bg-alt);border-radius:6px;overflow:hidden;height:11px;}
+.price-bar-fill{height:100%;border-radius:6px;}
+.price-bar-fill.official{background:var(--teal);}
+.price-bar-fill.reseller{background:var(--coral);}
+.price-bar-value{width:56px;text-align:right;font-weight:700;font-size:13px;flex-shrink:0;}
+.save-badge{
+  display:inline-block;background:var(--amber);color:var(--teal-dark);
+  font-weight:700;font-size:12.5px;padding:5px 12px;border-radius:999px;margin-top:8px;
+}
+.save-badge.small{
+  padding:3px 9px;font-size:11px;margin:6px 0 0;
+}
+.no-markup-badge{
+  display:inline-block;background:var(--bg-alt);color:var(--teal-dark);
+  font-weight:600;font-size:12px;padding:4px 10px;border-radius:999px;margin-top:8px;
+  border:1px solid var(--border);
+}
+.savings-hero{
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+  background:linear-gradient(135deg, rgba(46,111,113,0.08), rgba(232,199,126,0.12));
+  border-radius:var(--radius);padding:24px;margin-bottom:24px;
+}
+.savings-hero img{width:110px;height:110px;object-fit:contain;flex-shrink:0;}
+.savings-hero-text{flex:1;min-width:220px;}
+.savings-total-badge{
+  display:inline-block;background:var(--coral);color:#fff;font-weight:700;
+  font-size:15px;padding:8px 18px;border-radius:999px;margin-top:10px;
+}
+@media (max-width:520px){
+  .savings-row{flex-direction:column;}
+  .savings-row .icon{width:48px;height:48px;}
+}
+
+/* ============================================
+   Pass pointer link (Museums/Family -> Combined Pass)
+   ============================================ */
+.pass-pointer{
+  font-size:14px;
+  color:var(--text-secondary);
+  margin-top:-6px;
+}
+.pass-pointer a{
+  color:var(--coral);
+  font-weight:600;
+  text-decoration:none;
+}
+.pass-pointer a:hover{text-decoration:underline;}
+
+/* ============================================
+   Combined Pass — distinct color per pass card
+   ============================================ */
+.ticket-card.pass-teal{border-top:5px solid var(--teal);}
+.ticket-card.pass-coral{border-top:5px solid var(--coral);}
+.ticket-card.pass-amber{border-top:5px solid var(--amber);}
+.ticket-card.pass-teal .dot{background:var(--teal);color:#fff;}
+.ticket-card.pass-coral .dot{background:var(--coral);color:#fff;}
+.ticket-card.pass-amber .dot{background:var(--amber);color:var(--teal-dark);}
