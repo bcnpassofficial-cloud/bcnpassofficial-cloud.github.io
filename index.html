@@ -33,6 +33,7 @@
     <nav class="main-nav" id="mainNav">
       <button class="nav-btn active" data-tab="home">Home</button>
       <button class="nav-btn" data-tab="tickets">Tickets</button>
+      <button class="nav-btn" data-tab="savings">Savings</button>
       <button class="nav-btn" data-tab="affiliation">Disclosure</button>
       <button class="nav-btn" data-tab="feedback">Feedback</button>
     </nav>
@@ -115,6 +116,7 @@
       <button class="cat-btn" data-cat="family">Family &amp; fun</button>
       <button class="cat-btn" data-cat="transport">Transport</button>
       <button class="cat-btn" data-cat="activities">Activities</button>
+      <button class="cat-btn" data-cat="combined">Combined Pass</button>
     </div>
 
     <!-- Gaudí landmarks -->
@@ -132,12 +134,14 @@
           <h4>Sagrada Família</h4>
           <p>Gaudí's unfinished basilica and Barcelona's most iconic landmark, now the tallest church in the world.</p>
           <a class="btn btn-primary" href="https://sagradafamilia.org/en/tickets" target="_blank" rel="noopener">Book official tickets →</a>
+          <span class="save-badge small">Save up to €14 vs reseller pricing</span>
         </div>
         <div class="ticket-card">
           <div class="dot">2</div>
           <h4>Casa Batlló</h4>
           <p>A dragon-backed rooftop and bone-like balconies make this Gaudí's most theatrical façade.</p>
           <a class="btn btn-primary" href="https://www.casabatllo.es/en/online-tickets/" target="_blank" rel="noopener">Book official tickets →</a>
+          <span class="save-badge small">Save ~€6 vs reseller pricing</span>
         </div>
         <div class="ticket-card">
           <div class="dot">3</div>
@@ -156,6 +160,7 @@
           <h4>Park Güell</h4>
           <p>Gaudí's whimsical public park, famous for its mosaic terrace, trencadís salamander and city views.</p>
           <a class="btn btn-primary" href="https://parkguell.barcelona/en/buy-tickets" target="_blank" rel="noopener">Book official tickets →</a>
+          <span class="save-badge small">Save €2–€5 vs reseller pricing</span>
         </div>
         <div class="ticket-card">
           <div class="dot">6</div>
@@ -207,6 +212,7 @@
           <a class="btn btn-primary" href="https://tickets.museunacional.cat/muslinkIV/index.jsp?nom_cache=MUSEU&amp;property=MUSEU&amp;lang=2&amp;grupActiv=1#close" target="_blank" rel="noopener">Book official tickets →</a>
         </div>
       </div>
+      <p class="pass-pointer">Visiting 3 or more museums? <a href="#" onclick="goToCombinedPass(); return false;">See our Combined Pass tab for a multi-museum pass →</a></p>
     </div>
 
     <!-- Sports -->
@@ -282,6 +288,7 @@
           <a class="btn btn-primary" href="https://www.portaventuraworld.com/en/tickets" target="_blank" rel="noopener">Book official tickets →</a>
         </div>
       </div>
+      <p class="pass-pointer">Visiting 3 or more family attractions? <a href="#" onclick="goToCombinedPass(); return false;">See our Combined Pass tab for a family multi-attraction card →</a></p>
     </div>
 
     <!-- Transport -->
@@ -310,15 +317,16 @@
         </div>
       </div>
 
-      <h4 class="subcat-heading">Metro ticket</h4>
+      <h4 class="subcat-heading">City transport</h4>
       <div class="ticket-grid">
         <div class="ticket-card">
           <div class="dot">1</div>
           <h4>TMB — Metro &amp; Bus Fares</h4>
-          <p>Official fares and ticket options for Barcelona's metro and bus network, run by TMB.</p>
+          <p>Official single-ride and multi-ride fares for Barcelona's metro, tram and bus network, run by TMB.</p>
           <a class="btn btn-primary" href="https://www.tmb.cat/en/barcelona-fares-metro-bus" target="_blank" rel="noopener">Book official tickets →</a>
         </div>
       </div>
+      <p class="pass-pointer">Using the metro, bus, tram, local trains and the Montjuïc funicular on several days? <a href="#" onclick="goToCombinedPass(); return false;">See our Combined Pass tab for the unlimited City Travel Card →</a></p>
 
       <h4 class="subcat-heading">Cab</h4>
       <div class="ticket-grid">
@@ -342,7 +350,7 @@
         </div>
       </div>
 
-      <h4 class="subcat-heading">Airport bus service</h4>
+      <h4 class="subcat-heading">Airport service</h4>
       <div class="ticket-grid">
         <div class="ticket-card">
           <div class="dot">1</div>
@@ -492,6 +500,37 @@
         </div>
       </div>
     </div>
+
+    <!-- Combined Pass -->
+    <div class="cat-panel" id="cat-combined">
+      <div class="cat-banner">
+        <img src="images/illustration-combined-pass.svg" alt="Combined multi-attraction passes for Barcelona">
+        <div>
+          <h3>Combined Pass</h3>
+          <p>Genuine official multi-attraction and multi-day passes — never a private reseller bundle. Good value once you're covering several stops in one trip.</p>
+        </div>
+      </div>
+      <div class="ticket-grid">
+        <div class="ticket-card pass-teal">
+          <div class="dot">1</div>
+          <h4>6-Museum Pass</h4>
+          <p>One official ticket for six of Barcelona's leading art museums, including Museu Picasso and MNAC, both already on this site. Pays for itself from 3 museums visited.</p>
+          <a class="btn btn-primary" href="https://articketbcn.org" target="_blank" rel="noopener">Book official tickets →</a>
+        </div>
+        <div class="ticket-card pass-coral">
+          <div class="dot">2</div>
+          <h4>Family Attractions Card</h4>
+          <p>Issued directly by Barcelona's official tourism board. Bundles free entry to the Zoo, Tibidabo, CosmoCaixa and L'Aquàrium, plus unlimited public transport, for 72–120 hours.</p>
+          <a class="btn btn-primary" href="https://bcnshop.barcelonaturisme.com/shopv3/en/product/27675/barcelona-card-family.html" target="_blank" rel="noopener">Book official tickets →</a>
+        </div>
+        <div class="ticket-card pass-amber">
+          <div class="dot">3</div>
+          <h4>City Travel Card</h4>
+          <p>The official public transport pass, issued by the city's own transport operator — unlimited metro, bus, tram and local trains, including the airport connection, for 24 to 120 hours.</p>
+          <a class="btn btn-primary" href="https://www.tmb.cat/en/barcelona-fares-metro-bus/tickets-visit-barcelona/barcelona-travel-card-hola-bcn" target="_blank" rel="noopener">Book official tickets →</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -570,6 +609,124 @@
         <p class="form-note">This form currently displays a confirmation only. Connect it to your email or a form service (e.g. Formspree) to start receiving replies.</p>
       </form>
     </div>-->
+  </div>
+</section>
+
+<!-- ===================== SAVINGS COMPARISON TAB ===================== -->
+<section id="savings" class="tab-panel">
+  <div class="section container">
+    <div class="info-block">
+
+      <div class="savings-hero">
+        <img src="images/logo-icon.svg" alt="BCN Pass Official — book Barcelona tickets on the official website and save">
+        <div class="savings-hero-text">
+          <h2 style="margin-bottom:6px;">Barcelona tickets: how much can you save booking direct?</h2>
+          <p style="margin:0;">BCN Pass Official exists for one reason: to help you book tickets on each attraction's own official website, instead of paying a markup or an oversized bundle you won't fully use.</p>
+          <span class="savings-total-badge">Real savings: up to €14 per ticket</span>
+        </div>
+      </div>
+
+      <div class="disclaimer-box">
+        These figures are based on publicly listed 2026 prices at the time of writing and can change. Always confirm the live price on the official website before you book tickets — that's exactly what every BCN Pass Official link takes you to.
+      </div>
+
+      <h2>Official website vs. third-party pricing: attraction by attraction</h2>
+      <p>Here's how the official website price compares to typical third-party pricing for Barcelona's most-visited landmarks — the teal bar is the official price, the coral bar is the third-party price.</p>
+
+      <div class="savings-compare">
+
+        <div class="savings-row">
+          <div class="icon"><img src="images/illustration-sagrada.svg" alt="Sagrada Família official website tickets"></div>
+          <div class="savings-body">
+            <h4>Sagrada Família</h4>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Official</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill official" style="width:65%;"></div></div>
+              <span class="price-bar-value">€26</span>
+            </div>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Third-party</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill reseller" style="width:100%;"></div></div>
+              <span class="price-bar-value">€33–€40</span>
+            </div>
+            <span class="save-badge">Book tickets direct and save €7–€14</span>
+          </div>
+        </div>
+
+        <div class="savings-row">
+          <div class="icon"><img src="images/illustration-casa-batllo.svg" alt="Casa Batlló official website tickets"></div>
+          <div class="savings-body">
+            <h4>Casa Batlló</h4>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Official</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill official" style="width:83%;"></div></div>
+              <span class="price-bar-value">€29</span>
+            </div>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Third-party</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill reseller" style="width:100%;"></div></div>
+              <span class="price-bar-value">€35</span>
+            </div>
+            <span class="save-badge">Book tickets direct and save ~€6</span>
+          </div>
+        </div>
+
+        <div class="savings-row">
+          <div class="icon"><img src="images/illustration-park-guell.svg" alt="Park Güell official website tickets"></div>
+          <div class="savings-body">
+            <h4>Park Güell</h4>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Official</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill official" style="width:78%;"></div></div>
+              <span class="price-bar-value">€18</span>
+            </div>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Third-party</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill reseller" style="width:100%;"></div></div>
+              <span class="price-bar-value">€20–€23</span>
+            </div>
+            <span class="save-badge">Book tickets direct and save €2–€5</span>
+          </div>
+        </div>
+
+      </div>
+
+      <h2>Multi-attraction Barcelona tourist passes: do they actually save money?</h2>
+      <p>Sometimes — but only if you pack in enough paid attractions. Bundled multi-attraction passes advertise savings of "up to 50%", but that ceiling only applies once you visit five or more paid attractions within the pass's active window.</p>
+
+      <div class="savings-compare">
+        <div class="savings-row">
+          <div class="icon"><img src="images/illustration-beach-hotel.svg" alt="Barcelona trip planning — beach and hotel"></div>
+          <div class="savings-body">
+            <h4>Real example: 4 classic Gaudí sites, 2-day trip</h4>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Pass</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill reseller" style="width:100%;"></div></div>
+              <span class="price-bar-value">€189</span>
+            </div>
+            <div class="price-bar-track">
+              <span class="price-bar-label">Official</span>
+              <div class="price-bar-fill-wrap"><div class="price-bar-fill official" style="width:56%;"></div></div>
+              <span class="price-bar-value">€98–€113</span>
+            </div>
+            <span class="save-badge">Book each site direct and save €75–€90</span>
+          </div>
+        </div>
+      </div>
+
+      <p>Passes make more sense if you're genuinely planning to squeeze in 5 or more paid attractions in a short window and won't have time to book tickets separately. For most first-time visitors focused on 2–4 headline sights in Barcelona, booking direct — attraction by attraction, official website by official website — comes out cheaper.</p>
+
+      <div class="disclaimer-box">
+        Looking for a genuine official multi-attraction pass instead? See our <a href="#" onclick="goToCombinedPass(); return false;" style="color:var(--coral);font-weight:600;">Combined Pass tab</a> — official passes exist for Museums and Family attractions. There's currently no official multi-attraction pass; booking each ticket directly stays your best option there.
+      </div>
+
+      <h2>Why book Barcelona tickets through BCN Pass Official</h2>
+      <ul>
+        <li>Official website prices are always the baseline — third parties and passes build their margin on top of it, not below it.</li>
+        <li>"Skip the line" from a third-party ticket usually just means skipping the ticket-purchase queue, which any timed-entry official ticket already does.</li>
+        <li>Every link on BCN Pass Official goes straight to the attraction's own official website — the same source these comparisons are based on — so you always see the base price, never a marked-up one.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -653,6 +810,7 @@
     <nav class="footer-links">
       <a href="#home" data-tab="home">Home</a>
       <a href="#tickets" data-tab="tickets">Tickets</a>
+      <a href="#savings" data-tab="savings">Savings</a>
       <a href="#affiliation" data-tab="affiliation">Disclosure</a>
       <a href="#feedback" data-tab="feedback">Feedback</a>
       <a href="#privacy" data-tab="privacy">Privacy &amp; Terms</a>
