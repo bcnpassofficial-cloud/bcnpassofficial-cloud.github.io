@@ -1,0 +1,62 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Barcelona beach and hotel</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+
+<!-- sky sun -->
+<circle cx="470" cy="90" r="46" fill="#F2A93B"/>
+
+<!-- sea -->
+<rect x="0" y="260" width="600" height="90" fill="#4FA3A8"/>
+<path d="M0 270 Q 30 260 60 270 T 120 270 T 180 270 T 240 270 T 300 270 T 360 270 T 420 270 T 480 270 T 540 270 T 600 270"
+      fill="none" stroke="#EAF4F4" stroke-width="6"/>
+
+<!-- sand -->
+<rect x="0" y="350" width="600" height="150" fill="#E8C77E"/>
+
+<!-- hotel building -->
+<g>
+  <rect x="330" y="130" width="150" height="220" fill="#2E6F71"/>
+  <rect x="330" y="130" width="150" height="18" fill="#1F4E4F"/>
+  <!-- windows -->
+  <g fill="#EAF4F4">
+    <rect x="348" y="160" width="22" height="22"/>
+    <rect x="384" y="160" width="22" height="22"/>
+    <rect x="420" y="160" width="22" height="22"/>
+    <rect x="456" y="160" width="22" height="22"/>
+    <rect x="348" y="198" width="22" height="22"/>
+    <rect x="384" y="198" width="22" height="22"/>
+    <rect x="420" y="198" width="22" height="22"/>
+    <rect x="456" y="198" width="22" height="22"/>
+    <rect x="348" y="236" width="22" height="22"/>
+    <rect x="384" y="236" width="22" height="22"/>
+    <rect x="420" y="236" width="22" height="22"/>
+    <rect x="456" y="236" width="22" height="22"/>
+    <rect x="348" y="274" width="22" height="22"/>
+    <rect x="384" y="274" width="22" height="22"/>
+    <rect x="420" y="274" width="22" height="22"/>
+    <rect x="456" y="274" width="22" height="22"/>
+  </g>
+  <!-- entrance -->
+  <rect x="390" y="310" width="60" height="40" fill="#E85D4C"/>
+</g>
+
+<!-- palm tree -->
+<g>
+  <path d="M150 350 C150 300 150 260 145 220" stroke="#8A5A34" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <g fill="#2E6F71">
+    <path d="M145 220 C110 200 80 205 55 190 C90 185 120 195 145 220 Z"/>
+    <path d="M145 220 C175 195 210 195 235 178 C205 180 175 195 145 220 Z"/>
+    <path d="M145 220 C120 190 100 165 85 135 C112 155 132 185 145 220 Z"/>
+    <path d="M145 220 C165 185 180 155 190 120 C175 155 160 185 145 220 Z"/>
+    <path d="M145 220 C140 180 145 150 140 115 C152 148 150 182 145 220 Z"/>
+  </g>
+</g>
+
+<!-- beach umbrella + sunbed -->
+<g>
+  <polygon points="245,400 320,400 282,340" fill="#E85D4C"/>
+  <rect x="279" y="340" width="6" height="70" fill="#1F4E4F"/>
+  <rect x="230" y="420" width="110" height="14" rx="6" fill="#2E6F71"/>
+  <rect x="230" y="420" width="110" height="14" rx="6" fill="none" stroke="#1F4E4F" stroke-width="2"/>
+</g>
+</svg>

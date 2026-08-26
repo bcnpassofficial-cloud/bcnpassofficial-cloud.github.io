@@ -1,0 +1,33 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Combined multi-attraction pass</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+
+<!-- back ticket (amber) -->
+<g transform="rotate(-8 300 260)">
+  <rect x="150" y="150" width="300" height="180" rx="16" fill="#F2A93B"/>
+  <circle cx="150" cy="240" r="14" fill="#EAF4F4"/>
+  <circle cx="450" cy="240" r="14" fill="#EAF4F4"/>
+  <line x1="172" y1="150" x2="172" y2="330" stroke="#EAF4F4" stroke-width="4" stroke-dasharray="8 8"/>
+</g>
+
+<!-- middle ticket (coral) -->
+<g transform="rotate(4 300 260)">
+  <rect x="150" y="150" width="300" height="180" rx="16" fill="#E85D4C"/>
+  <circle cx="150" cy="240" r="14" fill="#EAF4F4"/>
+  <circle cx="450" cy="240" r="14" fill="#EAF4F4"/>
+  <line x1="172" y1="150" x2="172" y2="330" stroke="#EAF4F4" stroke-width="4" stroke-dasharray="8 8"/>
+</g>
+
+<!-- front ticket (teal) -->
+<g transform="rotate(-2 300 260)">
+  <rect x="150" y="150" width="300" height="180" rx="16" fill="#2E6F71"/>
+  <circle cx="150" cy="240" r="14" fill="#EAF4F4"/>
+  <circle cx="450" cy="240" r="14" fill="#EAF4F4"/>
+  <line x1="172" y1="150" x2="172" y2="330" stroke="#EAF4F4" stroke-width="4" stroke-dasharray="8 8"/>
+  <!-- star -->
+  <polygon points="330,215 341,240 368,243 348,261 354,288 330,274 306,288 312,261 292,243 319,240"
+           fill="#E8C77E"/>
+  <!-- lines suggesting text -->
+  <rect x="292" y="298" width="120" height="8" rx="4" fill="#4FA3A8"/>
+</g>
+</svg>
