@@ -1,26 +1,3 @@
-// ===== Main tab navigation (Home / Tickets / Affiliation / Feedback) =====
-const navBtns = document.querySelectorAll('.nav-btn');
-const tabPanels = document.querySelectorAll('.tab-panel');
-const footerLinks = document.querySelectorAll('.footer-links a');
-
-function activateTab(tabName){
-  tabPanels.forEach(p => p.classList.toggle('active', p.id === tabName));
-  navBtns.forEach(b => b.classList.toggle('active', b.dataset.tab === tabName));
-  window.scrollTo({top:0, behavior:'smooth'});
-  document.getElementById('mainNav').classList.remove('open');
-}
-
-navBtns.forEach(btn => {
-  btn.addEventListener('click', () => activateTab(btn.dataset.tab));
-});
-
-footerLinks.forEach(link => {
-  link.addEventListener('click', (e) => {
-    e.preventDefault();
-    activateTab(link.dataset.tab);
-  });
-});
-
 // ===== Mobile nav toggle =====
 const navToggle = document.getElementById('navToggle');
 const mainNav = document.getElementById('mainNav');
@@ -29,7 +6,7 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', isOpen);
 });
 
-// ===== Ticket category switching =====
+// ===== Ticket category switching (Gaudí / Museums / Sports / etc. within the Tickets page) =====
 const catBtns = document.querySelectorAll('.cat-btn');
 const catPanels = document.querySelectorAll('.cat-panel');
 
@@ -41,12 +18,12 @@ catBtns.forEach(btn => {
   });
 });
 
-// ===== Jump straight to Tickets > Combined Pass from anywhere =====
+// ===== Jump straight to the Combined Pass category (used by "pass-pointer" links on the Tickets page) =====
 function goToCombinedPass(){
-  const ticketsBtn = document.querySelector('.nav-btn[data-tab="tickets"]');
-  if (ticketsBtn) ticketsBtn.click();
   const combinedBtn = document.querySelector('.cat-btn[data-cat="combined"]');
   if (combinedBtn) combinedBtn.click();
+  const combinedPanel = document.getElementById('cat-combined');
+  if (combinedPanel) combinedPanel.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 window.goToCombinedPass = goToCombinedPass;
 
@@ -62,10 +39,12 @@ stars.forEach(star => {
 
 // ===== Feedback form (front-end only demo) =====
 const feedbackForm = document.getElementById('feedbackForm');
-feedbackForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert('Thanks for your feedback! (Connect this form to an email service or backend to start receiving real messages.)');
-  feedbackForm.reset();
-  stars.forEach(s => s.classList.remove('filled'));
-  selectedRating = 0;
-});
+if (feedbackForm) {
+  feedbackForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thanks for your feedback! (Connect this form to an email service or backend to start receiving real messages.)');
+    feedbackForm.reset();
+    stars.forEach(s => s.classList.remove('filled'));
+    selectedRating = 0;
+  });
+}
