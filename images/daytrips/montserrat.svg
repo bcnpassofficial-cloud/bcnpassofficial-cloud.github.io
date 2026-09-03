@@ -1,0 +1,19 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Montserrat mountain and monastery</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="38" fill="#F2A93B"/>
+<!-- jagged mountain range -->
+<polygon points="0,300 60,180 110,240 170,110 230,220 290,90 350,210 410,130 470,240 520,170 600,290 600,400 0,400" fill="#2E6F71"/>
+<polygon points="0,320 90,230 150,270 220,190 280,260 360,180 430,250 500,210 600,310 600,400 0,400" fill="#1F4E4F"/>
+<!-- monastery block nestled on ledge -->
+<g fill="#E8C77E">
+  <rect x="230" y="245" width="140" height="40"/>
+  <rect x="255" y="215" width="30" height="30"/>
+  <rect x="300" y="205" width="34" height="40"/>
+</g>
+<g fill="#E85D4C">
+  <polygon points="255,215 270,198 285,215"/>
+  <polygon points="300,205 317,185 334,205"/>
+</g>
+<rect x="0" y="360" width="600" height="40" fill="#4FA3A8"/>
+</svg>

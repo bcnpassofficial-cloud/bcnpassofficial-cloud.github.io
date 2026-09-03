@@ -1,0 +1,22 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Gaudí's crypt at Colònia Güell</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<!-- hyperboloid brick arches, Gaudí style -->
+<g fill="#E85D4C">
+  <path d="M120,340 Q120,220 220,220 Q220,340 120,340 Z"/>
+  <path d="M220,340 Q220,190 320,190 Q320,340 220,340 Z"/>
+  <path d="M320,340 Q320,220 420,220 Q420,340 320,340 Z"/>
+</g>
+<g fill="#1F4E4F" opacity="0.25">
+  <path d="M120,340 Q120,220 220,220 Q220,340 120,340 Z"/>
+  <path d="M320,340 Q320,220 420,220 Q420,340 320,340 Z"/>
+</g>
+<!-- mosaic-style dots at base -->
+<g fill="#E8C77E">
+  <circle cx="150" cy="330" r="6"/><circle cx="180" cy="330" r="6"/>
+  <circle cx="250" cy="330" r="6"/><circle cx="290" cy="330" r="6"/>
+  <circle cx="350" cy="330" r="6"/><circle cx="390" cy="330" r="6"/>
+</g>
+<rect x="0" y="360" width="600" height="40" fill="#2E6F71"/>
+</svg>

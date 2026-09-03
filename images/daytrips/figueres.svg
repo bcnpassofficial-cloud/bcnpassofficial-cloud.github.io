@@ -1,0 +1,19 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Dalí Theatre-Museum in Figueres</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<!-- main museum facade -->
+<rect x="120" y="200" width="360" height="150" fill="#E85D4C"/>
+<g fill="#E8C77E">
+  <circle cx="160" cy="220" r="8"/><circle cx="200" cy="210" r="8"/><circle cx="240" cy="225" r="8"/>
+  <circle cx="280" cy="205" r="8"/><circle cx="320" cy="222" r="8"/><circle cx="360" cy="212" r="8"/>
+  <circle cx="400" cy="224" r="8"/><circle cx="440" cy="208" r="8"/>
+</g>
+<!-- central dome -->
+<circle cx="300" cy="185" r="55" fill="none" stroke="#2E6F71" stroke-width="10"/>
+<circle cx="300" cy="150" r="14" fill="#F2A93B"/>
+<!-- giant eggs on parapet -->
+<ellipse cx="150" cy="185" rx="14" ry="20" fill="#EAF4F4" stroke="#2E6F71" stroke-width="4"/>
+<ellipse cx="450" cy="185" rx="14" ry="20" fill="#EAF4F4" stroke="#2E6F71" stroke-width="4"/>
+<rect x="0" y="350" width="600" height="50" fill="#4FA3A8"/>
+</svg>

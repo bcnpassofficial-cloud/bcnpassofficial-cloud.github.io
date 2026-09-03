@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Vall de Núria mountain sanctuary in the snow</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="30" fill="#F2A93B"/>
+<!-- snowy peaks -->
+<polygon points="0,260 100,120 180,220 280,80 380,220 460,140 600,260 600,400 0,400" fill="#3B6DA6"/>
+<polygon points="0,280 90,180 160,230 280,140 380,230 470,190 600,280 600,400 0,400" fill="#2E6F71"/>
+<g fill="#EAF4F4">
+  <polygon points="100,120 85,160 115,160"/>
+  <polygon points="280,80 260,130 300,130"/>
+  <polygon points="460,140 443,175 477,175"/>
+</g>
+<!-- sanctuary building -->
+<rect x="240" y="255" width="120" height="45" fill="#E8C77E"/>
+<rect x="285" y="225" width="30" height="35" fill="#E85D4C"/>
+<polygon points="285,225 300,205 315,225" fill="#2E6F71"/>
+<!-- rack railway line -->
+<path d="M0,320 Q300,290 600,330" stroke="#1F4E4F" stroke-width="4" fill="none" stroke-dasharray="10,8"/>
+<rect x="0" y="360" width="600" height="40" fill="#4FA3A8"/>
+</svg>

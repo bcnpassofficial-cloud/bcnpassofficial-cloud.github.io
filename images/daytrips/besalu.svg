@@ -1,0 +1,29 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Medieval Romanesque bridge in Besalú</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<!-- river -->
+<rect x="0" y="290" width="600" height="110" fill="#4FA3A8"/>
+<!-- fortified bridge with arches -->
+<g fill="#E8C77E">
+  <path d="M40,300 Q120,190 220,300 Q300,220 380,300 Q460,190 560,300 L560,320 L40,320 Z"/>
+</g>
+<g fill="#4FA3A8">
+  <circle cx="120" cy="290" r="34"/>
+  <circle cx="300" cy="280" r="40"/>
+  <circle cx="460" cy="290" r="34"/>
+</g>
+<rect x="90" y="200" width="60" height="40" fill="#E85D4C"/>
+<polygon points="90,200 120,175 150,200" fill="#2E6F71"/>
+<!-- village houses behind -->
+<g fill="#2E6F71">
+  <rect x="200" y="150" width="40" height="90"/>
+  <rect x="245" y="130" width="45" height="110"/>
+  <rect x="295" y="160" width="38" height="80"/>
+</g>
+<g fill="#1F4E4F">
+  <polygon points="200,150 220,130 240,150"/>
+  <polygon points="245,130 267,105 290,130"/>
+  <polygon points="295,160 314,140 333,160"/>
+</g>
+</svg>
