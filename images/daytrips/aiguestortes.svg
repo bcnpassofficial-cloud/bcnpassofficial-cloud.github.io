@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Aigüestortes glacial lake</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="70" r="30" fill="#F2A93B"/>
+<polygon points="0,220 120,90 220,200 320,60 420,190 520,100 600,220 600,260 0,260" fill="#2E6F71"/>
+<polygon points="120,90 105,130 135,130" fill="#EAF4F4"/>
+<polygon points="320,60 302,110 338,110" fill="#EAF4F4"/>
+<rect x="0" y="260" width="600" height="140" fill="#4FA3A8"/>
+<ellipse cx="300" cy="330" rx="220" ry="20" fill="#3B6DA6" opacity="0.4"/>
+</svg>

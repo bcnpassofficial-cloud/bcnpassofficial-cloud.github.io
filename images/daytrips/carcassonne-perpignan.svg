@@ -1,0 +1,14 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Carcassonne walled city</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<rect x="80" y="220" width="440" height="90" fill="#E8C77E"/>
+<g fill="#2E6F71">
+ <rect x="100" y="170" width="30" height="70"/><polygon points="100,170 115,150 130,170" fill="#1F4E4F"/>
+ <rect x="170" y="160" width="30" height="80"/><polygon points="170,160 185,138 200,160" fill="#1F4E4F"/>
+ <rect x="250" y="150" width="34" height="90"/><polygon points="250,150 267,125 284,150" fill="#1F4E4F"/>
+ <rect x="330" y="160" width="30" height="80"/><polygon points="330,160 345,138 360,160" fill="#1F4E4F"/>
+ <rect x="400" y="170" width="30" height="70"/><polygon points="400,170 415,150 430,170" fill="#1F4E4F"/>
+ <rect x="470" y="180" width="28" height="60"/><polygon points="470,180 484,160 498,180" fill="#1F4E4F"/>
+ <rect x="120" y="220" width="360" height="20"/>
+</g>
+<rect x="0" y="330" width="600" height="70" fill="#4FA3A8"/>
+</svg>

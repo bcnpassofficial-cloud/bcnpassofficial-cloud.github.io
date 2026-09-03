@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Tamariu and Aiguablava pine-backed coves</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<path d="M0,260 Q300,220 600,260 L600,400 L0,400 Z" fill="#4FA3A8"/>
+<rect x="0" y="360" width="600" height="40" fill="#E8C77E"/>
+<g fill="#2E6F71">
+ <polygon points="60,260 80,190 100,260"/><polygon points="90,270 110,210 130,270"/>
+ <polygon points="470,260 490,190 510,260"/><polygon points="500,270 520,210 540,270"/>
+</g>
+</svg>

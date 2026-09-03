@@ -1,0 +1,7 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Coastal coves along the Camí de Ronda</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<path d="M0,240 Q100,200 180,240 Q260,280 340,240 Q420,200 500,240 Q560,260 600,240 L600,400 L0,400 Z" fill="#4FA3A8"/>
+<path d="M0,220 Q100,185 180,220 Q260,255 340,220 Q420,185 500,220 Q560,238 600,220 L600,240 Q560,258 500,240 Q420,202 340,240 Q260,278 180,240 Q100,202 0,240 Z" fill="#E8C77E"/>
+<path d="M0,400 L0,300 Q60,260 120,300 L120,400 Z" fill="#2E6F71"/>
+<path d="M480,400 L480,290 Q540,250 600,290 L600,400 Z" fill="#1F4E4F"/>
+</svg>

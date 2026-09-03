@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>The Cement Train heritage railway</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<polygon points="0,260 150,140 300,260" fill="#2E6F71"/>
+<polygon points="300,260 420,150 600,260" fill="#1F4E4F"/>
+<rect x="0" y="290" width="600" height="14" fill="#3a2a10"/>
+<rect x="80" y="255" width="120" height="35" rx="4" fill="#E85D4C"/>
+<circle cx="105" cy="292" r="10" fill="#1F4E4F"/><circle cx="175" cy="292" r="10" fill="#1F4E4F"/>
+<rect x="210" y="260" width="60" height="30" rx="4" fill="#F2A93B"/>
+<circle cx="228" cy="292" r="9" fill="#1F4E4F"/><circle cx="252" cy="292" r="9" fill="#1F4E4F"/>
+<rect x="0" y="330" width="600" height="70" fill="#4FA3A8"/>
+</svg>

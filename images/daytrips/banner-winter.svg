@@ -1,0 +1,11 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img"><title>Winter day trips — snowy Pyrenees</title>
+<rect width="700" height="260" fill="#EAF4F4"/>
+<circle cx="600" cy="55" r="22" fill="#EAF4F4" stroke="#F2A93B" stroke-width="4"/>
+<polygon points="0,190 90,70 170,150 260,50 350,150 440,80 520,160 600,90 700,190 700,260 0,260" fill="#3B6DA6"/>
+<polygon points="90,70 74,105 106,105" fill="#EAF4F4"/>
+<polygon points="260,50 242,90 278,90" fill="#EAF4F4"/>
+<polygon points="440,80 424,112 456,112" fill="#EAF4F4"/>
+<polygon points="600,90 585,120 615,120" fill="#EAF4F4"/>
+<g fill="#2E6F71"><polygon points="150,220 165,190 180,220"/><polygon points="500,225 515,198 530,225"/></g>
+<rect x="0" y="230" width="700" height="30" fill="#EAF4F4"/>
+</svg>

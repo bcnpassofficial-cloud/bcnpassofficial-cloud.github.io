@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Cadaqués whitewashed bay</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<rect x="0" y="260" width="600" height="140" fill="#4FA3A8"/>
+<g fill="#EAF4F4" stroke="#2E6F71" stroke-width="3">
+ <rect x="80" y="200" width="50" height="70"/><rect x="140" y="180" width="55" height="90"/>
+ <rect x="205" y="210" width="45" height="60"/><rect x="400" y="195" width="55" height="75"/>
+ <rect x="465" y="215" width="45" height="55"/>
+</g>
+<polygon points="140,180 167,155 195,180" fill="#E85D4C"/>
+<g fill="#E8C77E"><rect x="0" y="260" width="600" height="10"/></g>
+</svg>

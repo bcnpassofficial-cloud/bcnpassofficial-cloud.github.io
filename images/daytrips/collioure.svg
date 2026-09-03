@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Collioure harbour castle</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<rect x="0" y="260" width="600" height="140" fill="#4FA3A8"/>
+<rect x="230" y="190" width="140" height="80" fill="#E8C77E"/>
+<rect x="270" y="150" width="30" height="45" fill="#2E6F71"/>
+<polygon points="270,150 285,130 300,150" fill="#1F4E4F"/>
+<g>
+ <rect x="60" y="220" width="50" height="50" fill="#E85D4C"/><rect x="115" y="205" width="50" height="65" fill="#F2A93B"/>
+ <rect x="430" y="215" width="50" height="55" fill="#E85D4C"/><rect x="485" y="200" width="45" height="70" fill="#2E6F71"/>
+</g>
+</svg>

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Natural river pools at Les Planes</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<path d="M60,250 Q300,180 540,250 L540,320 Q300,260 60,320 Z" fill="#4FA3A8"/>
+<path d="M0,400 Q60,300 130,320 Q90,360 0,400 Z" fill="#E8C77E"/>
+<path d="M600,400 Q540,300 470,320 Q510,360 600,400 Z" fill="#E8C77E"/>
+<g fill="#2E6F71"><ellipse cx="100" cy="240" rx="40" ry="18"/><ellipse cx="500" cy="230" rx="45" ry="20"/></g>
+</svg>

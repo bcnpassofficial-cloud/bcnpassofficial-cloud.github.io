@@ -1,0 +1,22 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img"><title>Summer day trips — Costa Brava beach</title>
+<rect width="700" height="260" fill="#EAF4F4"/>
+<circle cx="120" cy="55" r="28" fill="#F2A93B"/>
+<rect x="0" y="140" width="700" height="70" fill="#4FA3A8"/>
+<rect x="0" y="210" width="700" height="50" fill="#E8C77E"/>
+<!-- umbrella -->
+<polygon points="480,150 560,150 520,105" fill="#E85D4C"/>
+<rect x="518" y="150" width="4" height="55" fill="#2E6F71"/>
+<!-- beach figure in swimsuit, simple flat illustration, non-graphic -->
+<g>
+ <ellipse cx="440" cy="215" rx="26" ry="8" fill="#1F4E4F" opacity="0.15"/>
+ <circle cx="410" cy="185" r="10" fill="#E8C77E"/>
+ <path d="M398,196 Q410,190 422,196 L426,214 Q410,220 394,214 Z" fill="#F2A93B"/>
+ <path d="M394,214 Q380,216 372,208" stroke="#E8C77E" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <path d="M426,214 Q440,220 448,214" stroke="#E8C77E" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <line x1="402" y1="214" x2="398" y2="230" stroke="#E8C77E" stroke-width="6" stroke-linecap="round"/>
+ <line x1="418" y1="214" x2="420" y2="230" stroke="#E8C77E" stroke-width="6" stroke-linecap="round"/>
+</g>
+<!-- sailboat -->
+<polygon points="200,150 200,120 230,150" fill="#EAF4F4"/>
+<rect x="190" y="150" width="50" height="8" fill="#2E6F71"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img"><title>Year-round day trips from Barcelona</title>
+<rect width="700" height="260" fill="#EAF4F4"/>
+<circle cx="590" cy="60" r="26" fill="#F2A93B"/>
+<!-- compass -->
+<circle cx="150" cy="130" r="55" fill="none" stroke="#2E6F71" stroke-width="6"/>
+<polygon points="150,90 162,130 150,170 138,130" fill="#E85D4C"/>
+<circle cx="150" cy="130" r="6" fill="#1F4E4F"/>
+<!-- mountain -->
+<polygon points="260,190 330,90 400,190" fill="#2E6F71"/>
+<!-- town roofs -->
+<g fill="#E85D4C">
+ <rect x="420" y="150" width="40" height="40"/><polygon points="420,150 440,125 460,150"/>
+ <rect x="470" y="160" width="34" height="30"/><polygon points="470,160 487,138 504,160"/>
+</g>
+<!-- rail track dotted line linking icons -->
+<path d="M60,210 Q350,240 640,210" stroke="#4FA3A8" stroke-width="4" fill="none" stroke-dasharray="10,10"/>
+</svg>

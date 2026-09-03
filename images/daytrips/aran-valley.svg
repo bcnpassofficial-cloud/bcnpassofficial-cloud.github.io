@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Snowy Aran Valley village</title>
+<rect width="600" height="400" fill="#EAF4F4"/><circle cx="500" cy="70" r="28" fill="#F2A93B"/>
+<polygon points="0,250 150,120 300,250" fill="#3B6DA6"/>
+<polygon points="300,250 450,110 600,250" fill="#2E6F71"/>
+<g fill="#E85D4C">
+ <rect x="150" y="255" width="45" height="45"/><polygon points="150,255 172,225 194,255"/>
+ <rect x="220" y="265" width="40" height="35"/><polygon points="220,265 240,238 260,265"/>
+ <rect x="290" y="255" width="45" height="45"/><polygon points="290,255 312,225 334,255"/>
+</g>
+<rect x="0" y="340" width="600" height="60" fill="#EAF4F4"/>
+</svg>
