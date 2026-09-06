@@ -595,7 +595,7 @@ button{font-family:var(--font-body);cursor:pointer;}
 /* ---------- Language switcher (EN / 中文) ---------- */
 .lang-toggle-btn{
   order:1;
-  margin-left:8px;
+  margin-left:6px;
   padding:7px 14px;
   border-radius:20px;
   border:2px solid var(--teal);
@@ -610,9 +610,11 @@ button{font-family:var(--font-body);cursor:pointer;}
   transition:background .15s,color .15s;
 }
 .lang-toggle-btn:hover{background:var(--teal);color:#fff;}
+.header-inner > a.lang-toggle-btn:first-of-type{margin-left:auto;}
 @media (max-width:860px){
   .header-inner{flex-wrap:wrap;}
-  .lang-toggle-btn{order:2;margin-left:auto;}
+  .lang-toggle-btn{order:2;}
+  .header-inner > a.lang-toggle-btn:first-of-type{margin-left:auto;}
   .nav-toggle{order:3;}
   .main-nav{order:4;}
 }
