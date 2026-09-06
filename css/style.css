@@ -591,3 +591,28 @@ button{font-family:var(--font-body);cursor:pointer;}
 }
 .beach-block ul{margin:0;padding-left:18px;font-size:14px;color:var(--text-secondary);}
 .beach-block li{margin-bottom:6px;}
+
+/* ---------- Language switcher (EN / 中文) ---------- */
+.lang-toggle-btn{
+  order:1;
+  margin-left:8px;
+  padding:7px 14px;
+  border-radius:20px;
+  border:2px solid var(--teal);
+  background:#fff;
+  color:var(--teal-dark);
+  font-weight:700;
+  font-size:13.5px;
+  text-decoration:none;
+  white-space:nowrap;
+  display:inline-flex;
+  align-items:center;
+  transition:background .15s,color .15s;
+}
+.lang-toggle-btn:hover{background:var(--teal);color:#fff;}
+@media (max-width:860px){
+  .header-inner{flex-wrap:wrap;}
+  .lang-toggle-btn{order:2;margin-left:auto;}
+  .nav-toggle{order:3;}
+  .main-nav{order:4;}
+}
