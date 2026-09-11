@@ -11,26 +11,21 @@ const langToggle = document.getElementById('langToggle');
 const langMenu = document.getElementById('langMenu');
 if (langToggle && langMenu) {
   const closeLangMenu = () => {
-    langMenu.hidden = true;
+    langMenu.classList.remove('open');
     langToggle.setAttribute('aria-expanded', 'false');
   };
   langToggle.addEventListener('click', (e) => {
     e.stopPropagation();
-    const isOpen = !langMenu.hidden;
-    if (isOpen) {
-      closeLangMenu();
-    } else {
-      langMenu.hidden = false;
-      langToggle.setAttribute('aria-expanded', 'true');
-    }
+    const isOpen = langMenu.classList.toggle('open');
+    langToggle.setAttribute('aria-expanded', isOpen);
   });
   document.addEventListener('click', (e) => {
-    if (!langMenu.hidden && !langMenu.contains(e.target) && e.target !== langToggle) {
+    if (langMenu.classList.contains('open') && !langMenu.contains(e.target) && e.target !== langToggle) {
       closeLangMenu();
     }
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !langMenu.hidden) {
+    if (e.key === 'Escape' && langMenu.classList.contains('open')) {
       closeLangMenu();
       langToggle.focus();
     }
