@@ -32,6 +32,22 @@ if (langToggle && langMenu) {
   });
 }
 
+// ===== Itinerary day picker (shows Day 1..N cumulatively) =====
+const itinBtns = document.querySelectorAll('.itin-btn');
+const dayBlocks = document.querySelectorAll('.day-block');
+if (itinBtns.length && dayBlocks.length) {
+  itinBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const n = Number(btn.dataset.days);
+      itinBtns.forEach(b => b.classList.toggle('active', b === btn));
+      dayBlocks.forEach(block => {
+        const d = Number(block.dataset.day);
+        block.classList.toggle('day-block-hidden', d > n);
+      });
+    });
+  });
+}
+
 // ===== Ticket category switching (Gaudí / Museums / Sports / etc. within the Tickets page) =====
 const catBtns = document.querySelectorAll('.cat-btn');
 const catPanels = document.querySelectorAll('.cat-panel');
