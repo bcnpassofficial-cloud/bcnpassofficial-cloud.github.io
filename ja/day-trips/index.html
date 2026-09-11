@@ -31,8 +31,19 @@
 </div>
 </a>
 </div>
-
-<a class="lang-toggle-btn" href="/day-trips/" hreflang="en">EN</a><a class="lang-toggle-btn" href="/zh/day-trips/" hreflang="zh-Hans">中文</a><a class="lang-toggle-btn" href="/es/day-trips/" hreflang="es">Español</a><button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
+    <div class="lang-switch">
+      <button type="button" class="lang-switch__toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-switch__current">日本語</span>
+        <svg class="lang-switch__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-switch__menu" id="langMenu" role="menu" hidden>
+      <li role="none"><a role="menuitem" href="/day-trips/" hreflang="en">EN</a></li>
+      <li role="none"><a role="menuitem" href="/zh/day-trips/" hreflang="zh-Hans">中文</a></li>
+      <li role="none"><a role="menuitem" href="/es/day-trips/" hreflang="es">Español</a></li>
+      <li role="none"><a role="menuitem" href="/ja/day-trips/" hreflang="ja" class="is-current">日本語</a></li>
+      </ul>
+    </div>
+<button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
 <nav class="main-nav" id="mainNav">
 <a class="nav-btn" href="/ja/">ホーム</a>
 <a class="nav-btn" href="/ja/tickets/">チケット</a>
@@ -427,6 +438,24 @@
 </div>
 </div>
 <div class="trip-grid">
+<div class="ticket-card trip-card">
+<img alt="La Molina ski resort in the snow" class="trip-photo" src="/images/daytrips/la-molina.svg"/>
+<div class="trip-body">
+<span class="trip-tag season-winter">ピレネー山脈とスキーリゾート</span>
+<h4>ラ・モリーナ</h4>
+<p>1943年開業、スペイン最古のスキーリゾート。セルダーニャとアルプの谷にまたがる総延長70kmのゲレンデを持ち、初心者向けコースや専用スノーパークがあるほか、ロダリエス線の専用駅がリゾート内にあります。</p>
+<div class="trip-route">
+<h5>アクセス方法</h5>
+<p><strong>電車:</strong> ロダリエスR3線でラ・モリーナ駅まで直通(バルセロナ・サンツ駅またはプラサ・カタルーニャ駅から約2時間30分〜3時間)。駅からはゲレンデまで無料シャトルバスが運行しています。</p>
+<p class="change-note">乗り換え不要――R3線にはラ・モリーナ専用駅があります。駅からゲレンデまでは短い無料シャトルバスのみ利用します。</p>
+<p><strong>バス:</strong> Sagalés社が冬季シーズン限定でノルド駅(Estació del Nord)発の日帰りバス(SkiBus)を運行。交通費・保険・リフト券込みです。</p>
+</div>
+<div class="trip-actions">
+<a class="btn btn-primary" href="https://www.lamolina.cat/en/winter/webshop/forfaits/day-ski-pass/" rel="noopener" target="_blank">公式リフト券を予約する →</a>
+<a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=La+Molina+ski+resort,+Spain" rel="noopener" target="_blank"><svg class="icon-pin" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 7 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path></svg>Googleマップで開く →</a>
+</div>
+</div>
+</div>
 <div class="ticket-card trip-card">
 <img alt="Vall de Núria mountain sanctuary in the snow" class="trip-photo" src="/images/daytrips/vall-de-nuria.svg"/>
 <div class="trip-body">

@@ -34,10 +34,19 @@
         </div>
       </a>
     </div>
+    <div class="lang-switch">
+      <button type="button" class="lang-switch__toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-switch__current">EN</span>
+        <svg class="lang-switch__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-switch__menu" id="langMenu" role="menu" hidden>
+      <li role="none"><a role="menuitem" href="/day-trips/" hreflang="en" class="is-current">EN</a></li>
+      <li role="none"><a role="menuitem" href="/zh/day-trips/" hreflang="zh-Hans">中文</a></li>
+      <li role="none"><a role="menuitem" href="/es/day-trips/" hreflang="es">Español</a></li>
+      <li role="none"><a role="menuitem" href="/ja/day-trips/" hreflang="ja">日本語</a></li>
+      </ul>
+    </div>
 
-    <a class="lang-toggle-btn" href="/zh/day-trips/" hreflang="zh-Hans">中文</a>
-    <a class="lang-toggle-btn" href="/es/day-trips/" hreflang="es">Español</a>
-    <a class="lang-toggle-btn" href="/ja/day-trips/" hreflang="ja">日本語</a>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
 
@@ -464,6 +473,25 @@
       </div>
 
       <div class="trip-grid">
+
+        <div class="ticket-card trip-card">
+          <img class="trip-photo" src="/images/daytrips/la-molina.svg" alt="La Molina ski resort in the snow">
+          <div class="trip-body">
+            <span class="trip-tag season-winter">Pyrenees &amp; ski resort</span>
+            <h4>La Molina</h4>
+            <p>Spain's oldest ski resort, opened in 1943, with 70 km of slopes across the Cerdanya and Alp valleys — beginner-friendly runs, a dedicated snow park, and its own stop right on the Rodalies line.</p>
+            <div class="trip-route">
+              <h5>How to get there</h5>
+              <p><strong>Train:</strong> Rodalies R3 runs direct to the La Molina station (about 2h30–3h from Barcelona Sants or Plaça Catalunya) — a free shuttle bus then runs from the station up to the slopes.</p>
+              <p class="change-note">No change needed — the R3 line has its own La Molina stop; only the short free shuttle bus links the station to the ski area.</p>
+              <p><strong>Bus:</strong> Sagalés runs a seasonal day-trip coach (SkiBus) from Estació del Nord, including transport, insurance and a lift pass.</p>
+            </div>
+            <div class="trip-actions">
+              <a class="btn btn-primary" href="https://www.lamolina.cat/en/winter/webshop/forfaits/day-ski-pass/" target="_blank" rel="noopener">Book official ski pass →</a>
+              <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=La+Molina+ski+resort,+Spain" target="_blank" rel="noopener"><svg class="icon-pin" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 7 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>Open in Google Maps →</a>
+            </div>
+          </div>
+        </div>
 
         <div class="ticket-card trip-card">
           <img class="trip-photo" src="/images/daytrips/vall-de-nuria.svg" alt="Vall de Núria mountain sanctuary in the snow">

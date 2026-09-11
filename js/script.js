@@ -6,6 +6,37 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', isOpen);
 });
 
+// ===== Language dropdown =====
+const langToggle = document.getElementById('langToggle');
+const langMenu = document.getElementById('langMenu');
+if (langToggle && langMenu) {
+  const closeLangMenu = () => {
+    langMenu.hidden = true;
+    langToggle.setAttribute('aria-expanded', 'false');
+  };
+  langToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = !langMenu.hidden;
+    if (isOpen) {
+      closeLangMenu();
+    } else {
+      langMenu.hidden = false;
+      langToggle.setAttribute('aria-expanded', 'true');
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if (!langMenu.hidden && !langMenu.contains(e.target) && e.target !== langToggle) {
+      closeLangMenu();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !langMenu.hidden) {
+      closeLangMenu();
+      langToggle.focus();
+    }
+  });
+}
+
 // ===== Ticket category switching (Gaudí / Museums / Sports / etc. within the Tickets page) =====
 const catBtns = document.querySelectorAll('.cat-btn');
 const catPanels = document.querySelectorAll('.cat-panel');

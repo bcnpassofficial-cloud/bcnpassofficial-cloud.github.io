@@ -32,9 +32,19 @@
 </div>
 </a>
 </div>
-
-
-<a class="lang-toggle-btn" href="/day-trips/" hreflang="en">EN</a><a class="lang-toggle-btn" href="/zh/day-trips/" hreflang="zh-Hans">中文</a><a class="lang-toggle-btn" href="/ja/day-trips/" hreflang="ja">日本語</a><button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
+    <div class="lang-switch">
+      <button type="button" class="lang-switch__toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-switch__current">Español</span>
+        <svg class="lang-switch__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-switch__menu" id="langMenu" role="menu" hidden>
+      <li role="none"><a role="menuitem" href="/day-trips/" hreflang="en">EN</a></li>
+      <li role="none"><a role="menuitem" href="/zh/day-trips/" hreflang="zh-Hans">中文</a></li>
+      <li role="none"><a role="menuitem" href="/es/day-trips/" hreflang="es" class="is-current">Español</a></li>
+      <li role="none"><a role="menuitem" href="/ja/day-trips/" hreflang="ja">日本語</a></li>
+      </ul>
+    </div>
+<button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
 <nav class="main-nav" id="mainNav">
 <a class="nav-btn" href="/es/">Inicio</a>
 <a class="nav-btn" href="/es/tickets/">Entradas</a>
@@ -429,6 +439,24 @@
 </div>
 </div>
 <div class="trip-grid">
+<div class="ticket-card trip-card">
+<img alt="La Molina ski resort in the snow" class="trip-photo" src="/images/daytrips/la-molina.svg"/>
+<div class="trip-body">
+<span class="trip-tag season-winter">Pirineos y estación de esquí</span>
+<h4>La Molina</h4>
+<p>La estación de esquí más antigua de España, inaugurada en 1943, con 70 km de pistas repartidas entre los valles de la Cerdanya y Alp — pistas ideales para principiantes, un snowpark propio, y parada propia en la línea de Rodalies.</p>
+<div class="trip-route">
+<h5>Cómo llegar</h5>
+<p><strong>Tren:</strong> Rodalies R3 directo hasta la estación de La Molina (unas 2h30–3h desde Barcelona Sants o Plaça Catalunya) — desde allí un autobús lanzadera gratuito sube hasta las pistas.</p>
+<p class="change-note">No requiere trasbordo — la línea R3 tiene parada propia en La Molina; solo hace falta el breve autobús lanzadera gratuito hasta las pistas.</p>
+<p><strong>Autobús:</strong> Sagalés opera un autocar de temporada (SkiBus) desde la Estació del Nord, con transporte, seguro y forfait incluidos.</p>
+</div>
+<div class="trip-actions">
+<a class="btn btn-primary" href="https://www.lamolina.cat/en/winter/webshop/forfaits/day-ski-pass/" rel="noopener" target="_blank">Reservar forfait oficial →</a>
+<a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=La+Molina+ski+resort,+Spain" rel="noopener" target="_blank"><svg class="icon-pin" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 7 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path></svg>Abrir en Google Maps →</a>
+</div>
+</div>
+</div>
 <div class="ticket-card trip-card">
 <img alt="Vall de Núria mountain sanctuary in the snow" class="trip-photo" src="/images/daytrips/vall-de-nuria.svg"/>
 <div class="trip-body">

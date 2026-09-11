@@ -31,8 +31,19 @@
 </div>
 </a>
 </div>
-
-<a class="lang-toggle-btn" href="/day-trips/" hreflang="en">EN</a><a class="lang-toggle-btn" href="/ja/day-trips/" hreflang="ja">日本語</a><a class="lang-toggle-btn" href="/es/day-trips/" hreflang="es">Español</a><button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
+    <div class="lang-switch">
+      <button type="button" class="lang-switch__toggle" id="langToggle" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-switch__current">中文</span>
+        <svg class="lang-switch__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <ul class="lang-switch__menu" id="langMenu" role="menu" hidden>
+      <li role="none"><a role="menuitem" href="/day-trips/" hreflang="en">EN</a></li>
+      <li role="none"><a role="menuitem" href="/zh/day-trips/" hreflang="zh-Hans" class="is-current">中文</a></li>
+      <li role="none"><a role="menuitem" href="/es/day-trips/" hreflang="es">Español</a></li>
+      <li role="none"><a role="menuitem" href="/ja/day-trips/" hreflang="ja">日本語</a></li>
+      </ul>
+    </div>
+<button aria-expanded="false" aria-label="Toggle menu" class="nav-toggle" id="navToggle">☰</button>
 <nav class="main-nav" id="mainNav">
 <a class="nav-btn" href="/zh/">首页</a>
 <a class="nav-btn" href="/zh/tickets/">门票</a>
@@ -427,6 +438,24 @@
 </div>
 </div>
 <div class="trip-grid">
+<div class="ticket-card trip-card">
+<img alt="La Molina ski resort in the snow" class="trip-photo" src="/images/daytrips/la-molina.svg"/>
+<div class="trip-body">
+<span class="trip-tag season-winter">比利牛斯山与滑雪度假区</span>
+<h4>拉莫利纳 (La Molina)</h4>
+<p>西班牙历史最悠久的滑雪度假区,1943年开业,雪道总长70公里,横跨塞尔达尼亚与阿尔普山谷——适合初学者的雪道、专属滑雪公园,而且Rodalies铁路在此设有专属车站。</p>
+<div class="trip-route">
+<h5>如何抵达</h5>
+<p><strong>火车:</strong> 乘坐Rodalies R3线直达拉莫利纳(La Molina)站(从巴塞罗那圣茨站或加泰罗尼亚广场出发约2.5-3小时),抵达后有免费接驳巴士送往雪道。</p>
+<p class="change-note">无需换乘——R3线设有拉莫利纳专属车站;只需搭乘从车站到雪道的短途免费接驳巴士。</p>
+<p><strong>巴士:</strong> Sagalés公司在雪季提供从北站(Estació del Nord)出发的一日游巴士(SkiBus),含交通、保险与滑雪缆车票。</p>
+</div>
+<div class="trip-actions">
+<a class="btn btn-primary" href="https://www.lamolina.cat/en/winter/webshop/forfaits/day-ski-pass/" rel="noopener" target="_blank">预订官方滑雪票 →</a>
+<a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=La+Molina+ski+resort,+Spain" rel="noopener" target="_blank"><svg class="icon-pin" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 7 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path></svg>在谷歌地图中打开 →</a>
+</div>
+</div>
+</div>
 <div class="ticket-card trip-card">
 <img alt="Vall de Núria mountain sanctuary in the snow" class="trip-photo" src="/images/daytrips/vall-de-nuria.svg"/>
 <div class="trip-body">
