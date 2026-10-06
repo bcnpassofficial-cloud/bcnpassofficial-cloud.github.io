@@ -6,216 +6,11 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/tickets/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/tickets/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/day-trips/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/day-trips/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/savings/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/savings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/savings/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/savings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/disclosure/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/disclosure/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/feedback/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/feedback/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
-  </url>
-
-  <url>
-    <loc>https://bcnpassofficial.com/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/zh/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/tickets/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/day-trips/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/savings/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/savings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/disclosure/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/feedback/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
-  </url>
-  <url>
-    <loc>https://bcnpassofficial.com/ja/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/</loc>
@@ -223,9 +18,54 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/tickets/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/tickets/</loc>
@@ -233,9 +73,54 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/tickets/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/tickets/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/tickets/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/day-trips/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/day-trips/</loc>
@@ -243,9 +128,109 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/day-trips/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/day-trips/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/day-trips/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/day-trips/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/day-trips/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/itinerary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/itinerary/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/es/itinerary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/itinerary/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/itinerary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/itinerary/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/itinerary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/itinerary/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/itinerary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/itinerary/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/savings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/savings/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/savings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/savings/</loc>
@@ -253,9 +238,54 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/savings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/savings/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/savings/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/savings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/savings/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/savings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/savings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/savings/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/savings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/savings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/savings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/savings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/savings/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/savings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/savings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/savings/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/disclosure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/disclosure/</loc>
@@ -263,9 +293,54 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/disclosure/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/disclosure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/disclosure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/disclosure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/disclosure/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/feedback/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/feedback/</loc>
@@ -273,9 +348,54 @@
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/feedback/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/feedback/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/feedback/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/feedback/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/feedback/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
   </url>
   <url>
     <loc>https://bcnpassofficial.com/es/privacy/</loc>
@@ -283,7 +403,41 @@
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://bcnpassofficial.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/fr/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/de/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://bcnpassofficial.com/ja/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/privacy/"/>
   </url>
