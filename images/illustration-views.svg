@@ -1,0 +1,26 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Barcelona views — skyscraper, hill and cable car</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+<circle cx="480" cy="95" r="44" fill="#F2A93B"/>
+<!-- hill -->
+<path d="M0 400 Q150 250 330 330 T600 300 V500 H0 Z" fill="#E8C77E"/>
+<path d="M0 440 Q200 340 400 400 T600 390 V500 H0 Z" fill="#4FA3A8"/>
+<!-- tower -->
+<rect x="95" y="130" width="70" height="290" rx="34" fill="#2E6F71"/>
+<g fill="#EAF4F4" opacity=".85">
+  <rect x="112" y="170" width="10" height="10"/><rect x="138" y="170" width="10" height="10"/>
+  <rect x="112" y="205" width="10" height="10"/><rect x="138" y="205" width="10" height="10"/>
+  <rect x="112" y="240" width="10" height="10"/><rect x="138" y="240" width="10" height="10"/>
+  <rect x="112" y="275" width="10" height="10"/><rect x="138" y="275" width="10" height="10"/>
+  <rect x="112" y="310" width="10" height="10"/><rect x="138" y="310" width="10" height="10"/>
+</g>
+<rect x="105" y="120" width="50" height="14" rx="7" fill="#E85D4C"/>
+<!-- cable car -->
+<line x1="190" y1="120" x2="580" y2="200" stroke="#1F4E4F" stroke-width="4"/>
+<line x1="350" y1="152" x2="350" y2="180" stroke="#1F4E4F" stroke-width="4"/>
+<rect x="320" y="180" width="60" height="42" rx="8" fill="#E85D4C"/>
+<rect x="330" y="190" width="14" height="14" rx="3" fill="#EAF4F4"/><rect x="356" y="190" width="14" height="14" rx="3" fill="#EAF4F4"/>
+<!-- castle -->
+<rect x="430" y="300" width="100" height="45" fill="#1F4E4F"/>
+<g fill="#1F4E4F"><rect x="430" y="286" width="14" height="14"/><rect x="458" y="286" width="14" height="14"/><rect x="486" y="286" width="14" height="14"/><rect x="514" y="286" width="14" height="14"/></g>
+</svg>

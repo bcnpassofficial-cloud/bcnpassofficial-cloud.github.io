@@ -1,0 +1,10 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img"><title>Wine and cava day trips — vineyards of the Penedès</title>
+<rect width="700" height="260" fill="#EAF4F4"/>
+<circle cx="580" cy="55" r="28" fill="#F2A93B"/>
+<path d="M0 170 Q180 110 360 160 T700 140 V260 H0 Z" fill="#8FBF8F"/>
+<path d="M0 200 Q200 160 400 205 T700 190 V260 H0 Z" fill="#2E6F71"/>
+<g stroke="#1F4E4F" stroke-width="3"><line x1="40" y1="215" x2="660" y2="215"/><line x1="40" y1="235" x2="660" y2="235"/></g>
+<g fill="#E85D4C"><circle cx="120" cy="222" r="7"/><circle cx="200" cy="224" r="7"/><circle cx="300" cy="222" r="7"/><circle cx="420" cy="224" r="7"/><circle cx="540" cy="222" r="7"/></g>
+<!-- bottle -->
+<rect x="330" y="30" width="16" height="30" fill="#2E6F71"/><path d="M322 60 H354 L360 140 H316 Z" fill="#2E6F71"/><rect x="318" y="95" width="40" height="24" fill="#E8C77E"/>
+</svg>

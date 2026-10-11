@@ -1,0 +1,16 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Sant Sadurní d'Anoia — cava cellars and vineyards</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="500" cy="80" r="34" fill="#F2A93B"/>
+<path d="M0 250 Q200 190 380 240 T600 220 V400 H0 Z" fill="#8FBF8F"/>
+<!-- cellar building -->
+<rect x="150" y="190" width="220" height="110" fill="#E8C77E" stroke="#2E6F71" stroke-width="4"/>
+<polygon points="135,192 260,130 385,192" fill="#E85D4C"/>
+<path d="M230 300 V250 a30 30 0 0 1 60 0 V300 Z" fill="#1F4E4F"/>
+<!-- barrels -->
+<g fill="#A86B3C" stroke="#1F4E4F" stroke-width="3"><ellipse cx="430" cy="320" rx="38" ry="30"/><ellipse cx="500" cy="332" rx="34" ry="26"/></g>
+<g stroke="#1F4E4F" stroke-width="3" fill="none"><path d="M395 310 H465"/><path d="M468 322 H532"/></g>
+<!-- vines -->
+<g stroke="#1F4E4F" stroke-width="3"><line x1="40" y1="330" x2="130" y2="330"/><line x1="40" y1="360" x2="130" y2="360"/></g>
+<g fill="#7A3B69"><circle cx="60" cy="335" r="6"/><circle cx="90" cy="338" r="6"/><circle cx="115" cy="335" r="6"/></g>
+</svg>

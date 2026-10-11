@@ -1,0 +1,15 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Vilafranca del Penedès — wine town and vineyards</title>
+<rect width="600" height="400" fill="#EAF4F4"/>
+<circle cx="90" cy="80" r="34" fill="#F2A93B"/>
+<path d="M0 270 Q180 210 360 262 T600 240 V400 H0 Z" fill="#8FBF8F"/>
+<!-- church tower -->
+<rect x="250" y="120" width="60" height="150" fill="#EAF4F4" stroke="#2E6F71" stroke-width="4"/>
+<polygon points="245,122 280,70 315,122" fill="#2E6F71"/>
+<path d="M265 200 a15 15 0 0 1 30 0 V240 H265 Z" fill="#1F4E4F"/>
+<!-- old town houses -->
+<g fill="#E8C77E" stroke="#2E6F71" stroke-width="3"><rect x="110" y="195" width="70" height="75"/><rect x="190" y="215" width="55" height="55"/><rect x="325" y="205" width="70" height="65"/><rect x="405" y="220" width="60" height="50"/></g>
+<g fill="#E85D4C"><polygon points="105,197 145,168 185,197"/><polygon points="320,207 360,178 400,207"/></g>
+<!-- glass -->
+<path d="M500 300 H560 L552 340 Q530 360 508 340 Z" fill="#7A3B69" opacity=".85"/><line x1="530" y1="354" x2="530" y2="385" stroke="#1F4E4F" stroke-width="4"/><line x1="512" y1="385" x2="548" y2="385" stroke="#1F4E4F" stroke-width="4"/>
+</svg>

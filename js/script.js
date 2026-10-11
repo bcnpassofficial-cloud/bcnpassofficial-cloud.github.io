@@ -69,6 +69,15 @@ function goToCombinedPass(){
 }
 window.goToCombinedPass = goToCombinedPass;
 
+// ===== Jump to any ticket category (used by pointer links between categories) =====
+function goToCategory(cat){
+  const btn = document.querySelector('.cat-btn[data-cat="' + cat + '"]');
+  if (btn) btn.click();
+  const panel = document.getElementById('cat-' + cat);
+  if (panel) panel.scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+window.goToCategory = goToCategory;
+
 // ===== Star rating (feedback form) =====
 const stars = document.querySelectorAll('.star-rating .star');
 let selectedRating = 0;

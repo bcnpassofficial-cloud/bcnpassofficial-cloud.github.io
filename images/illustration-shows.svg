@@ -1,0 +1,19 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Barcelona shows — stage, curtains and spotlights</title>
+<rect width="600" height="500" fill="#EAF4F4"/>
+<rect x="70" y="60" width="460" height="360" rx="18" fill="#1F4E4F"/>
+<!-- spotlights -->
+<polygon points="180,60 120,400 250,400" fill="#F2A93B" opacity=".35"/>
+<polygon points="420,60 350,400 480,400" fill="#E8C77E" opacity=".35"/>
+<circle cx="180" cy="66" r="16" fill="#F2A93B"/><circle cx="420" cy="66" r="16" fill="#F2A93B"/>
+<!-- stage -->
+<rect x="70" y="380" width="460" height="40" fill="#E8C77E"/>
+<!-- curtains -->
+<path d="M70 60 H190 Q150 200 175 420 H70 Z" fill="#E85D4C"/>
+<path d="M530 60 H410 Q450 200 425 420 H530 Z" fill="#E85D4C"/>
+<g stroke="#B8432F" stroke-width="4" fill="none"><path d="M110 60 Q95 240 110 420"/><path d="M150 60 Q135 240 150 420"/><path d="M490 60 Q505 240 490 420"/><path d="M450 60 Q465 240 450 420"/></g>
+<!-- dancer silhouette -->
+<circle cx="300" cy="260" r="16" fill="#EAF4F4"/>
+<path d="M300 276 L280 350 L320 350 Z" fill="#EAF4F4"/>
+<path d="M300 290 L255 270 M300 290 L345 250" stroke="#EAF4F4" stroke-width="7" stroke-linecap="round"/>
+</svg>
