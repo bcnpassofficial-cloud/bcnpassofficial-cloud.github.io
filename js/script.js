@@ -99,3 +99,55 @@ if (feedbackForm) {
     selectedRating = 0;
   });
 }
+
+
+// ===== Ticket search (Tickets page): filters every card across all categories =====
+const ticketSearch = document.getElementById('ticketSearch');
+if (ticketSearch) {
+  const section = document.getElementById('tickets');
+  const noRes = document.getElementById('ticketNoResults');
+  const panels = Array.from(document.querySelectorAll('.cat-panel'));
+  const norm = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const runSearch = () => {
+    const q = norm(ticketSearch.value.trim());
+    if (q.length < 2) {
+      section.classList.remove('searching');
+      document.querySelectorAll('.is-hit-hidden').forEach((el) => el.classList.remove('is-hit-hidden'));
+      noRes.hidden = true;
+      return;
+    }
+    section.classList.add('searching');
+    let total = 0;
+    panels.forEach((panel) => {
+      let panelHits = 0;
+      panel.querySelectorAll('.ticket-grid').forEach((grid) => {
+        let hits = 0;
+        grid.querySelectorAll('.ticket-card').forEach((card) => {
+          const match = norm(card.textContent).includes(q);
+          card.classList.toggle('is-hit-hidden', !match);
+          if (match) hits++;
+        });
+        grid.classList.toggle('is-hit-hidden', hits === 0);
+        let prev = grid.previousElementSibling;
+        while (prev && (prev.classList.contains('subcat-heading') || prev.classList.contains('subcat-intro'))) {
+          prev.classList.toggle('is-hit-hidden', hits === 0);
+          prev = prev.previousElementSibling;
+        }
+        panelHits += hits;
+      });
+      panel.classList.toggle('is-hit-hidden', panelHits === 0);
+      total += panelHits;
+    });
+    noRes.hidden = total > 0;
+  };
+  ticketSearch.addEventListener('input', runSearch);
+  ticketSearch.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { ticketSearch.value = ''; runSearch(); }
+  });
+  // choosing a category tab leaves search mode
+  document.querySelectorAll('.cat-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      if (ticketSearch.value) { ticketSearch.value = ''; runSearch(); }
+    });
+  });
+}

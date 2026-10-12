@@ -5,16 +5,17 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="iIWKyGgQDRSaHqZ-w-c_6S0C_aVmKL_SCV-PJaDSp_o" name="google-site-verification"/>
 <title>Reserva entradas oficiales de Barcelona — Sagrada Família, Park Güell, museos y más | BCN Pass Official</title>
-<meta name="description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores, espectáculos, festivales, deporte, ocio familiar, transporte y actividades. Siempre al precio real y directo.">
+<meta name="description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores y ocio familiar, espectáculos, festivales, deporte, transporte y actividades. Siempre al precio real y directo.">
 <link href="https://bcnpassofficial.com/es/tickets/" rel="canonical"/>
 <link rel="alternate" hreflang="en" href="https://bcnpassofficial.com/tickets/">
 <link rel="alternate" hreflang="es" href="https://bcnpassofficial.com/es/tickets/">
 <link rel="alternate" hreflang="fr" href="https://bcnpassofficial.com/fr/tickets/">
 <link rel="alternate" hreflang="de" href="https://bcnpassofficial.com/de/tickets/">
+<link rel="alternate" hreflang="nl" href="https://bcnpassofficial.com/nl/tickets/">
 <link rel="alternate" hreflang="ja" href="https://bcnpassofficial.com/ja/tickets/">
 <link rel="alternate" hreflang="x-default" href="https://bcnpassofficial.com/tickets/">
 <meta content="Reserva entradas oficiales de Barcelona — Sagrada Família, Park Güell, museos y más | BCN Pass Official" property="og:title"/>
-<meta property="og:description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores, espectáculos, festivales, deporte, ocio familiar, transporte y actividades. Siempre al precio real y directo.">
+<meta property="og:description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores y ocio familiar, espectáculos, festivales, deporte, transporte y actividades. Siempre al precio real y directo.">
 <meta content="https://bcnpassofficial.com/es/tickets/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta property="og:image" content="https://bcnpassofficial.com/images/og-image.png">
@@ -25,7 +26,7 @@
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Reserva entradas oficiales de Barcelona — Sagrada Família, Park Güell, museos y más | BCN Pass Official">
-<meta name="twitter:description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores, espectáculos, festivales, deporte, ocio familiar, transporte y actividades. Siempre al precio real y directo.">
+<meta name="twitter:description" content="Enlaces oficiales de entradas de las principales atracciones de Barcelona por categorías: Gaudí y Modernismo, museos, miradores y ocio familiar, espectáculos, festivales, deporte, transporte y actividades. Siempre al precio real y directo.">
 <meta name="twitter:image" content="https://bcnpassofficial.com/images/og-image.png">
 <link href="/images/logo-icon.svg" rel="icon" type="image/svg+xml"/>
 <link href="/css/style.css" rel="stylesheet"/>
@@ -48,8 +49,6 @@
 <a class="nav-btn active" href="/es/tickets/">Entradas</a>
 <a class="nav-btn" href="/es/day-trips/">Excursiones</a>
 <a class="nav-btn" href="/es/itinerary/">Itinerario</a>
-<a class="nav-btn" href="/es/savings/">Ahorro</a>
-<a class="nav-btn" href="/es/disclosure/">Transparencia</a>
 <a class="nav-btn" href="/es/feedback/">Sugerencias</a>
 <div class="lang-switch">
 <button type="button" class="lang-switch__toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" title="Ver esta página en otro idioma"><svg class="lang-switch__globe" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 4 6 4 9s-1.5 6.3-4 9c-2.5-2.7-4-6-4-9s1.5-6.3 4-9z"/></svg><span class="lang-switch__current">Español</span><svg class="lang-switch__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -59,6 +58,7 @@
           <li role="none"><a role="menuitem" href="/es/tickets/" hreflang="es" class="is-current">Español</a></li>
           <li role="none"><a role="menuitem" href="/fr/tickets/" hreflang="fr">Français</a></li>
           <li role="none"><a role="menuitem" href="/de/tickets/" hreflang="de">Deutsch</a></li>
+          <li role="none"><a role="menuitem" href="/nl/tickets/" hreflang="nl">Nederlands</a></li>
           <li role="none"><a role="menuitem" href="/ja/tickets/" hreflang="ja">日本語</a></li>
         </ul>
 </div>
@@ -73,6 +73,11 @@
 <h2>Reserva entradas oficiales</h2>
 <p>Elige una categoría y accede directamente a la página oficial de reservas de cada atracción.</p>
 </div>
+    <div class="ticket-search">
+      <input type="search" id="ticketSearch" placeholder="Busca lugares, p. ej. Sagrada Família, zoo, metro…" aria-label="Buscar lugares" autocomplete="off">
+      <p class="ticket-noresults" id="ticketNoResults" hidden>No se han encontrado lugares: prueba con otra palabra.</p>
+    </div>
+
 <div class="cat-nav">
 <button class="cat-btn active" data-cat="gaudi">Gaudí y Modernismo</button>
 <button class="cat-btn" data-cat="museums">Museos y cultura</button>
@@ -80,7 +85,6 @@
       <button class="cat-btn" data-cat="shows">Espectáculos y ocio nocturno</button>
       <button class="cat-btn" data-cat="events">Eventos y festivales</button>
 <button class="cat-btn" data-cat="sports">Deporte</button>
-<button class="cat-btn" data-cat="family">Familia y ocio</button>
 <button class="cat-btn" data-cat="transport">Transporte</button>
 <button class="cat-btn" data-cat="activities">Actividades</button>
 <button class="cat-btn" data-cat="combined">Pases combinados</button>
@@ -150,13 +154,13 @@
           <div class="dot">9</div>
           <h4>Casa Lleó Morera</h4>
           <p>Una joya modernista de Domènech i Montaner, ricamente decorada, en la «Manzana de la Discordia» del paseo de Gràcia.</p>
-          <a class="btn btn-primary" href="https://www.casalleomorera.com/en" target="_blank" rel="noopener">Más información →</a>
+          <a class="btn btn-primary" href="https://www.grupnn.com/en/rehabilitation/casa-lleo-i-morera" target="_blank" rel="noopener">Más información →</a>
         </div>
         <div class="ticket-card">
           <div class="dot">10</div>
           <h4>Casa de les Punxes</h4>
           <p>La casa «de las púas» de Puig i Cadafalch, de cuento de hadas, con seis torres puntiagudas y una azotea visitable.</p>
-          <a class="btn btn-primary" href="https://www.casadelaspunxes.com/en/" target="_blank" rel="noopener">Más información →</a>
+          <a class="btn btn-primary" href="https://www.barcelona.cat/es/conocebcn/pics/la-casa-de-les-punxes-92086008882" target="_blank" rel="noopener">Más información →</a>
         </div>
       </div>
 </div>
@@ -312,7 +316,7 @@
         <img src="/images/illustration-views.svg" alt="Miradores y visitas">
         <div>
           <h3>Miradores y visitas</h3>
-          <p>Panorámicas de la ciudad y las formas más sencillas de ver los principales lugares de una vez.</p>
+          <p>Panorámicas de la ciudad, planes en familia y las formas más sencillas de ver los principales lugares de una vez.</p>
         </div>
       </div>
       <div class="ticket-grid">
@@ -332,7 +336,7 @@
           <div class="dot">3</div>
           <h4>Transbordador Aeri del Port</h4>
           <p>El histórico transbordador aéreo, que cruza el puerto entre la Barceloneta y la montaña de Montjuïc.</p>
-          <a class="btn btn-primary" href="https://www.telefericdebarcelona.com/" target="_blank" rel="noopener">Más información →</a>
+          <a class="btn btn-primary" href="https://www.telefericodebarcelona.com/" target="_blank" rel="noopener">Más información →</a>
         </div>
         <div class="ticket-card">
           <div class="dot">4</div>
@@ -340,8 +344,41 @@
           <p>El autobús turístico oficial de subir y bajar, gestionado por TMB, el operador de transporte de Barcelona, con rutas por los principales monumentos.</p>
           <a class="btn btn-primary" href="https://www.barcelonabusturistic.cat/en" target="_blank" rel="noopener">Reservar entradas oficiales →</a>
         </div>
+      <div class="ticket-card">
+<div class="dot">5</div>
+<h4>Zoo de Barcelona</h4>
+<p>Hogar de cientos de especies, en pleno corazón verde del Parc de la Ciutadella.</p>
+<a class="btn btn-primary" href="https://zoobarcelona.cat/en/plan-your-visit/tickets-and-subscriptions" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
+</div>
+<div class="ticket-card">
+<div class="dot">6</div>
+<h4>Aquàrium de Barcelona</h4>
+<p>Camina bajo tiburones y rayas a través de un túnel submarino de 80 metros en el puerto.</p>
+<a class="btn btn-primary" href="https://aquariumbcn.com" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
+</div>
+<div class="ticket-card">
+<div class="dot">7</div>
+<h4>Parque de atracciones del Tibidabo</h4>
+<p>Un parque de atracciones centenario en lo alto de la montaña, con las mejores vistas panorámicas de Barcelona.</p>
+<a class="btn btn-primary" href="https://tibidabo.cat/en" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
+</div>
+<div class="ticket-card">
+<div class="dot">8</div>
+<h4>Teleférico de Montjuïc</h4>
+<p>Sobrevuela la ciudad hasta el Castillo de Montjuïc en una cabina con vistas al mar y al perfil urbano.</p>
+<a class="btn btn-primary" href="https://www.telefericdemontjuic.cat/en" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
+</div>
+<div class="ticket-card">
+<div class="dot">9</div>
+<h4>PortAventura World</h4>
+<p>Un gran parque temático y acuático con montañas rusas para todas las edades, a unos 100 km al suroeste de Barcelona.</p>
+<p>Está a aproximadamente 1 hora en coche o en tren desde la ciudad, así que lo mejor es dedicarle un día completo.</p>
+<a class="btn btn-primary" href="https://www.portaventuraworld.com/en/tickets" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
+</div>
       </div>
       <p class="pass-pointer">¿Buscas un paseo en barco por el puerto? Consulta <a href="#" onclick="goToCategory('activities'); return false;">Actividades</a>.</p>
+    <p class="pass-pointer">¿Vas a visitar 3 atracciones familiares o más? <a href="#" onclick="goToCombinedPass(); return false;">Consulta nuestra sección de pases combinados para una tarjeta familiar multi-atracción →</a></p>
+      <p class="pass-pointer">¿Viajas con un peque? Antes de reservar, consulta la página oficial de cada atracción para ver el acceso con cochecito, los cambiadores de bebé y las condiciones de entrada por edad.</p>
     </div>
 
     <!-- Shows & Nightlife -->
@@ -466,51 +503,6 @@
         </div>
       </div>
 </div>
-<!-- Family & fun -->
-<div class="cat-panel" id="cat-family">
-<div class="cat-banner">
-<img alt="Family attractions in Barcelona" src="/images/illustration-park-guell.svg"/>
-<div>
-<h3>Familia y ocio</h3>
-<p>Planes fáciles para pasar el día con niños de cualquier edad.</p>
-</div>
-</div>
-<div class="ticket-grid">
-<div class="ticket-card">
-<div class="dot">1</div>
-<h4>Zoo de Barcelona</h4>
-<p>Hogar de cientos de especies, en pleno corazón verde del Parc de la Ciutadella.</p>
-<a class="btn btn-primary" href="https://zoobarcelona.cat/en/plan-your-visit/tickets-and-subscriptions" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
-</div>
-<div class="ticket-card">
-<div class="dot">2</div>
-<h4>Aquàrium de Barcelona</h4>
-<p>Camina bajo tiburones y rayas a través de un túnel submarino de 80 metros en el puerto.</p>
-<a class="btn btn-primary" href="https://aquariumbcn.com" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
-</div>
-<div class="ticket-card">
-<div class="dot">3</div>
-<h4>Parque de atracciones del Tibidabo</h4>
-<p>Un parque de atracciones centenario en lo alto de la montaña, con las mejores vistas panorámicas de Barcelona.</p>
-<a class="btn btn-primary" href="https://tibidabo.cat/en" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
-</div>
-<div class="ticket-card">
-<div class="dot">4</div>
-<h4>Teleférico de Montjuïc</h4>
-<p>Sobrevuela la ciudad hasta el Castillo de Montjuïc en una cabina con vistas al mar y al perfil urbano.</p>
-<a class="btn btn-primary" href="https://www.telefericdemontjuic.cat/en" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
-</div>
-<div class="ticket-card">
-<div class="dot">5</div>
-<h4>PortAventura World</h4>
-<p>Un gran parque temático y acuático con montañas rusas para todas las edades, a unos 100 km al suroeste de Barcelona.</p>
-<p>Está a aproximadamente 1 hora en coche o en tren desde la ciudad, así que lo mejor es dedicarle un día completo.</p>
-<a class="btn btn-primary" href="https://www.portaventuraworld.com/en/tickets" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
-</div>
-</div>
-<p class="pass-pointer">¿Vas a visitar 3 atracciones familiares o más? <a href="#" onclick="goToCombinedPass(); return false;">Consulta nuestra sección de pases combinados para una tarjeta familiar multi-atracción →</a></p>
-      <p class="pass-pointer">¿Viajas con un peque? Antes de reservar, consulta la página oficial de cada atracción para ver el acceso con cochecito, los cambiadores de bebé y las condiciones de entrada por edad.</p>
-    </div>
 <!-- Transport -->
 <div class="cat-panel" id="cat-transport">
 <div class="cat-banner">
@@ -647,7 +639,13 @@
 <p>Conexiones en ferry desde el puerto de Barcelona hacia Italia y Marruecos.</p>
 <a class="btn btn-primary" href="https://www.gnv.it/en/ports/spain/barcelona" rel="noopener" target="_blank">Reservar entradas oficiales →</a>
 </div>
-</div>
+        <div class="ticket-card">
+          <div class="dot">4</div>
+          <h4>ALSA Ferry</h4>
+          <p>Billetes de ferry a través de ALSA, el operador nacional de autobuses de España: consulta rutas y opciones de reserva en su web oficial.</p>
+          <a class="btn btn-primary" href="https://www.alsa.es/" target="_blank" rel="noopener">Más información →</a>
+        </div>
+      </div>
 </div>
 <!-- Activities -->
 <div class="cat-panel" id="cat-activities">

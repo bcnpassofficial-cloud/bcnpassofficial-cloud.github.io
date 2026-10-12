@@ -825,3 +825,17 @@ button{font-family:var(--font-body);cursor:pointer;}
 }
 
 .ticket-grid + .pass-pointer{margin-top:18px;}
+
+/* ---------- Ticket search ---------- */
+.ticket-search{max-width:560px;margin:0 auto 22px;}
+.ticket-search input{
+  width:100%;padding:13px 20px;border-radius:999px;border:2px solid var(--border);
+  font:inherit;font-size:15px;color:var(--text);background:#fff;outline:none;
+  transition:border-color .2s, box-shadow .2s;
+}
+.ticket-search input:focus{border-color:var(--teal-light);box-shadow:0 0 0 4px rgba(79,163,168,.18);}
+.ticket-noresults{text-align:center;margin:14px 0 0;color:var(--text-secondary);font-size:14.5px;}
+#tickets.searching .cat-panel{display:block;}
+#tickets.searching .cat-nav{opacity:.45;}
+#tickets.searching .pass-pointer,#tickets.searching .disclaimer-box{display:none;}
+.is-hit-hidden{display:none !important;}
