@@ -32,20 +32,49 @@ if (langToggle && langMenu) {
   });
 }
 
-// ===== Itinerary day picker (shows Day 1..N cumulatively) =====
-const itinBtns = document.querySelectorAll('.itin-btn');
-const dayBlocks = document.querySelectorAll('.day-block');
-if (itinBtns.length && dayBlocks.length) {
-  itinBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const n = Number(btn.dataset.days);
-      itinBtns.forEach(b => b.classList.toggle('active', b === btn));
-      dayBlocks.forEach(block => {
-        const d = Number(block.dataset.day);
-        block.classList.toggle('day-block-hidden', d > n);
-      });
-    });
+// ===== Itinerary page: tabs (Barcelona / day trips), 1-5 day plan picker, deep links =====
+const itinTabs = document.querySelectorAll('.itin-tab');
+const itinPanes = document.querySelectorAll('.itin-pane');
+const planBtns = document.querySelectorAll('.plan-btn');
+const plans = document.querySelectorAll('.plan');
+function showItinTab(name){
+  itinTabs.forEach(t => {
+    const on = t.dataset.tab === name;
+    t.classList.toggle('active', on);
+    t.setAttribute('aria-selected', on);
   });
+  itinPanes.forEach(p => {
+    const on = p.id === 'tab-' + name;
+    p.classList.toggle('active', on);
+    p.hidden = !on;
+  });
+}
+function showPlan(n){
+  planBtns.forEach(b => b.classList.toggle('active', b.dataset.plan === String(n)));
+  plans.forEach(p => p.classList.toggle('plan-active', p.dataset.plan === String(n)));
+}
+function openFromHash(){
+  const h = location.hash.replace('#', '');
+  if (!h) return;
+  if (h.indexOf('trip-') === 0){
+    const el = document.getElementById(h);
+    if (el){
+      showItinTab('daytrips');
+      el.open = true;
+      setTimeout(() => el.scrollIntoView({behavior: 'smooth', block: 'start'}), 50);
+    }
+  } else if (h.indexOf('plan-') === 0){
+    const m = h.match(/^plan-(\d)/);
+    if (m){ showItinTab('barcelona'); showPlan(m[1]); }
+  } else if (h === 'daytrips' || h === 'barcelona'){
+    showItinTab(h);
+  }
+}
+if (itinTabs.length){
+  itinTabs.forEach(t => t.addEventListener('click', () => showItinTab(t.dataset.tab)));
+  planBtns.forEach(b => b.addEventListener('click', () => showPlan(b.dataset.plan)));
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
 }
 
 // ===== Ticket category switching (Gaudí / Museums / Sports / etc. within the Tickets page) =====
