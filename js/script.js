@@ -66,7 +66,7 @@ function openFromHash(){
   } else if (h.indexOf('plan-') === 0){
     const m = h.match(/^plan-(\d)/);
     if (m){ showItinTab('barcelona'); showPlan(m[1]); }
-  } else if (h === 'daytrips' || h === 'barcelona'){
+  } else if (h === 'daytrips' || h === 'barcelona' || h === 'build'){
     showItinTab(h);
   }
 }
