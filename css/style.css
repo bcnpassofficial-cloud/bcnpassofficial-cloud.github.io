@@ -913,3 +913,15 @@ button{font-family:var(--font-body);cursor:pointer;}
 }
 #itinerary .section.container{padding-left:28px;padding-right:28px;}
 @media (max-width:640px){#itinerary .section.container{padding-left:16px;padding-right:16px;}}
+
+/*GEN-CSS-START*/
+.gen-controls{background:var(--bg-alt);border-radius:16px;padding:18px 20px;margin:0 0 28px;}
+.gen-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:6px 0;}
+.gen-label{font-weight:700;color:var(--teal-dark);min-width:110px;font-size:14px;}
+.gen-chips{display:flex;flex-wrap:wrap;gap:8px;}
+.gen-chip,.gen-day{background:#fff;border:2px solid var(--border);padding:9px 18px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--teal-dark);cursor:pointer;font-family:inherit;transition:all .15s;}
+.gen-chip:hover,.gen-day:hover{border-color:var(--teal-light);}
+.gen-chip.on,.gen-day.on{background:var(--teal);border-color:var(--teal);color:#fff;}
+.gen-chip.on::before{content:"✓ ";}
+@media print{.gen-controls{display:none !important;}}
+/*GEN-CSS-END*/
