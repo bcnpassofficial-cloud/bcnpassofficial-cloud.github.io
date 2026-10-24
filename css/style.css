@@ -919,9 +919,13 @@ button{font-family:var(--font-body);cursor:pointer;}
 .gen-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:6px 0;}
 .gen-label{font-weight:700;color:var(--teal-dark);min-width:110px;font-size:14px;}
 .gen-chips{display:flex;flex-wrap:wrap;gap:8px;}
-.gen-chip,.gen-day{background:#fff;border:2px solid var(--border);padding:9px 18px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--teal-dark);cursor:pointer;font-family:inherit;transition:all .15s;}
-.gen-chip:hover,.gen-day:hover{border-color:var(--teal-light);}
-.gen-chip.on,.gen-day.on{background:var(--teal);border-color:var(--teal);color:#fff;}
-.gen-chip.on::before{content:"✓ ";}
+.gen-chip,.gen-day,.gen-tib,.tib-opt{background:#fff;border:2px solid var(--border);padding:9px 18px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--teal-dark);cursor:pointer;font-family:inherit;transition:all .15s;}
+.gen-chip:hover,.gen-day:hover,.gen-tib:hover,.tib-opt:hover{border-color:var(--teal-light);}
+.gen-chip.on,.gen-day.on,.gen-tib.on,.tib-opt.on{background:var(--teal);border-color:var(--teal);color:#fff;}
+.gen-chip.on::before,.gen-tib.on::before,.tib-opt.on::before{content:"✓ ";}
+.tib-toggle{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--bg-alt);border-radius:12px;padding:10px 14px;margin:0 0 22px;}
+.plan .tib-variant{display:none;}
+.plan.tib-church .tib-variant[data-tib="church"],.plan.tib-park .tib-variant[data-tib="park"]{display:block;}
+.gen-row[hidden]{display:none;}
 @media print{.gen-controls{display:none !important;}}
 /*GEN-CSS-END*/
