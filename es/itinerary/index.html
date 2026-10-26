@@ -30,7 +30,7 @@
 <meta name="twitter:description" content="Itinerarios de Barcelona ya preparados para 1 a 5 días, todos distintos, con horarios de apertura, avisos de entradas anticipadas y enlaces oficiales de entradas, además de un itinerario de excursión para cada escapada, descargable en PDF.">
 <meta name="twitter:image" content="https://bcnpassofficial.com/images/og-image.png">
 <link rel="icon" href="/images/logo-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/css/style.css?v=8">
+<link rel="stylesheet" href="/css/style.css?v=9">
 </head>
 <body>
 <header class="site-header">
@@ -1413,6 +1413,9 @@
       <div class="itin-warning">
         <strong>Las excursiones requieren comprobar un poco más.</strong> Los trenes turísticos, los paseos en barco, las bodegas y los forfaits de esquí funcionan en fechas concretas y pueden agotarse. Confirma los horarios y reserva primero, y luego usa los itinerarios paso a paso de abajo. Abre cualquier excursión para ver el plan hora a hora, qué hacer, el transporte y una descarga en PDF. Las horas de vuelta son sugerencias: comprueba siempre el último tren o autobús.
       </div>
+<!--TS-SEARCH-->
+      <div class="trip-search"><input type="search" id="tripSearch" placeholder="Buscar excursiones (p. ej. Girona, playa, tren, vino)" aria-label="Buscar excursiones" autocomplete="off"><p class="itin-note" id="tripNoResults" hidden>Ninguna excursión coincide con tu búsqueda.</p></div>
+<!--/TS-SEARCH-->
       <h3 class="trip-group-title">Excursiones de un día para todo el año</h3>
       <details class="trip-itin" id="trip-montserrat">
         <summary><span class="trip-itin-tag">Montaña y monasterio</span><span class="trip-itin-name">Montserrat</span></summary>
@@ -3110,5 +3113,33 @@ if (itinTabs.length){
 </script>
 <!--INL-END-->
 <script src="/js/analytics.js" defer></script>
+<!--TS-START-->
+<script>
+(function(){
+  var q = document.getElementById('tripSearch'); if (!q) return;
+  var items = Array.prototype.slice.call(document.querySelectorAll('#tab-daytrips .trip-itin'));
+  var titles = Array.prototype.slice.call(document.querySelectorAll('#tab-daytrips .trip-group-title'));
+  var none = document.getElementById('tripNoResults');
+  var cache = items.map(function(el){ return norm(el.textContent); });
+  function norm(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
+  function run(){
+    var v = norm(q.value.trim()), shown = 0;
+    items.forEach(function(el, i){
+      var ok = v.length < 2 || cache[i].indexOf(v) !== -1;
+      el.hidden = !ok; if (ok) shown++;
+    });
+    titles.forEach(function(t){
+      var n = t.nextElementSibling, any = false;
+      while (n && !n.classList.contains('trip-group-title')){ if (n.classList.contains('trip-itin') && !n.hidden) any = true; n = n.nextElementSibling; }
+      t.hidden = v.length >= 2 && !any;
+    });
+    if (none) none.hidden = shown > 0;
+  }
+  q.addEventListener('input', run);
+  q.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ q.value = ''; run(); } });
+  window.addEventListener('hashchange', function(){ if (q.value){ q.value = ''; run(); } });
+})();
+</script>
+<!--TS-END-->
 </body>
 </html>

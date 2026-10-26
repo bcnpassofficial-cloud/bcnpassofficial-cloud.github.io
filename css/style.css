@@ -929,3 +929,11 @@ button{font-family:var(--font-body);cursor:pointer;}
 .gen-row[hidden]{display:none;}
 @media print{.gen-controls{display:none !important;}}
 /*GEN-CSS-END*/
+
+/*TS-CSS-START*/
+.trip-search{margin:0 0 22px;}
+.trip-search input{width:100%;box-sizing:border-box;padding:13px 18px;border:2px solid var(--border);border-radius:999px;font-size:15px;font-family:inherit;background:#fff;color:inherit;}
+.trip-search input:focus{outline:none;border-color:var(--teal);}
+.trip-itin[hidden],.trip-group-title[hidden]{display:none;}
+@media print{.trip-search{display:none !important;}}
+/*TS-CSS-END*/

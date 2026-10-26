@@ -30,7 +30,7 @@
 <meta name="twitter:description" content="Ready-made Barcelona itineraries for 1 to 5 days, each different, with opening hours, advance-ticket warnings and official ticket links — plus a day-trip itinerary for every excursion, downloadable as PDF.">
 <meta name="twitter:image" content="https://bcnpassofficial.com/images/og-image.png">
 <link rel="icon" href="/images/logo-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/css/style.css?v=7">
+<link rel="stylesheet" href="/css/style.css?v=9">
 </head>
 <body>
 
@@ -1426,6 +1426,9 @@
       <div class="itin-warning">
         <strong>Day trips need a little more checking.</strong> Tourist trains, boat tours, wineries and ski passes run on selected dates and can sell out. Confirm timetables and book first, then use the step-by-step itineraries below. Open any trip to see the hour-by-hour plan, things to do, transport and a PDF download. Return times are suggestions — always check the last train or bus.
       </div>
+<!--TS-SEARCH-->
+      <div class="trip-search"><input type="search" id="tripSearch" placeholder="Search day trips (e.g. Girona, beach, train, wine)" aria-label="Search day trips" autocomplete="off"><p class="itin-note" id="tripNoResults" hidden>No day trips match your search.</p></div>
+<!--/TS-SEARCH-->
       <h3 class="trip-group-title">Year-round day trips</h3>
       <details class="trip-itin" id="trip-montserrat">
         <summary><span class="trip-itin-tag">Mountain &amp; monastery</span><span class="trip-itin-name">Montserrat</span></summary>
@@ -3153,5 +3156,33 @@ if (itinTabs.length){
 </script>
 <!--INL-END-->
 <script src="/js/analytics.js" defer></script>
+<!--TS-START-->
+<script>
+(function(){
+  var q = document.getElementById('tripSearch'); if (!q) return;
+  var items = Array.prototype.slice.call(document.querySelectorAll('#tab-daytrips .trip-itin'));
+  var titles = Array.prototype.slice.call(document.querySelectorAll('#tab-daytrips .trip-group-title'));
+  var none = document.getElementById('tripNoResults');
+  var cache = items.map(function(el){ return norm(el.textContent); });
+  function norm(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
+  function run(){
+    var v = norm(q.value.trim()), shown = 0;
+    items.forEach(function(el, i){
+      var ok = v.length < 2 || cache[i].indexOf(v) !== -1;
+      el.hidden = !ok; if (ok) shown++;
+    });
+    titles.forEach(function(t){
+      var n = t.nextElementSibling, any = false;
+      while (n && !n.classList.contains('trip-group-title')){ if (n.classList.contains('trip-itin') && !n.hidden) any = true; n = n.nextElementSibling; }
+      t.hidden = v.length >= 2 && !any;
+    });
+    if (none) none.hidden = shown > 0;
+  }
+  q.addEventListener('input', run);
+  q.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ q.value = ''; run(); } });
+  window.addEventListener('hashchange', function(){ if (q.value){ q.value = ''; run(); } });
+})();
+</script>
+<!--TS-END-->
 </body>
 </html>
